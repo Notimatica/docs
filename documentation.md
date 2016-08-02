@@ -10,13 +10,13 @@
 - Plugins
     - [Floating button](/docs/floating-button)
     - [Panel](/docs/panel)
+- Customization
+    - [Localization](/docs/localization)
+    - [Styling](/docs/styling)
 - Integrations
     - [Drupal](/docs/dupal)
     - [Wordpress](/docs/wordpress)
     - [Ghost](/docs/ghost)
-- Customization
-    - [Localization](/docs/localization)
-    - [Styling](/docs/styling)
 - JavaScript SDK
     - [API](/docs/sdk-api)
     - [Options](/docs/sdk-options)
