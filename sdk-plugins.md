@@ -15,7 +15,6 @@ Every plugin must be an instance of `AbstractPlugin` and should have this method
 get name () {
   return 'plugin-name'
 }
-
 /**
  * Default options.
  *
