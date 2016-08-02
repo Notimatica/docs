@@ -22,6 +22,10 @@ Lets imagine we want default subscribing button be white with black bell in it. 
   background-color: #fff !important;
 }
 
+.notimatica-plugin-button-subscribe:hover {
+  background-color: #fff !important;
+}
+
 /* Bell and its waves */
 .notimatica-plugin-button-bell,
 .notimatica-plugin-button-wave-1,
