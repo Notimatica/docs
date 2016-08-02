@@ -1,6 +1,11 @@
 # Styling
 
-## Overview
+{.toc}
+* [Overview](#overview)
+* [Common Classes](#common-classes)
+
+{#overview}
+## [Overview](#overview){name="overview"}
 
 Every plugin has its own css file with namespaced classes. So every style can be overwritten.
 
@@ -27,7 +32,8 @@ Lets imagine we want default subscribing button be white with black bell in it. 
 
 Here we use `!important` modifier since we know that plugin styles will be loaded after our own css files and this modifier will force browser to use our styles instead of plugin's ones.
 
-## Common styles
+{#common-classes}
+## [Common Classes](#common-classes){name="common-classes"}
 
 Since every plugin must be independent from the page it runs on and don't affect it either, plugins are provided with some common classes they can use.
 
