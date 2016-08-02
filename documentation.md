@@ -10,6 +10,7 @@
 - Plugins
     - [Floating button](/docs/floating-button)
     - [Panel](/docs/panel)
+    - [Prompt](/docs/prompt)
 - Customization
     - [Localization](/docs/localization)
     - [Styling](/docs/styling)

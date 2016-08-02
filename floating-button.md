@@ -52,8 +52,8 @@ function {
 {.table .table-bordered .table-striped}
 | String | Default |
 |--------|---------|
-| `popover.subscribe` | Do you want to recieve desktop notifications from our site? Click Subscribe button! |
-| `popover.unsubscribe` | If you don't want to recieve notifications anymore, click Unsubscribe button. |
+| `popover.subscribe` | Do you want to receive desktop notifications from our site? Click Subscribe button! |
+| `popover.unsubscribe` | If you don't want to receive notifications anymore, click Unsubscribe button. |
 | `popover.button.subscribe` | Subscribe |
 | `popover.button.unsubscribe` | Unsubscribe |
 | `tooltip.subscribe` | Subscribe to notifications |

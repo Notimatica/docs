@@ -24,4 +24,4 @@ Notimatica.push(['init', {
 | `defaultLocale` | String | `'en'` | Default locale to use |
 | `matchExactUrl` | Boolean | `true` | URL comparison strategy for opening new tab on notification click |
 | `webhooks` | Object | `{}` | Map of webhooks to push for multiple notifications events |
-| `webhookCors` | Boolean | `false` | If your webhooks support CORS requests |
+| `webhooksCors` | Boolean | `false` | If your webhooks support CORS requests |
