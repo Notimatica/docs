@@ -1,4 +1,4 @@
-# Events
+# JavaScript SDK Events
 
 SDK emits events for every major...events :smile: so you can easily subscribe on them and provide your own callbacks.
 

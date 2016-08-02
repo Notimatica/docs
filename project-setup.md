@@ -1,4 +1,4 @@
-# Setup
+# Project Setup
 
 <div class="callout callout-info" role="alert">
 

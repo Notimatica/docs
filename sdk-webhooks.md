@@ -1,4 +1,4 @@
-# SDK Webhooks
+# JavaScript SDK Webhooks
 
 {.toc}
 * [Overview](#overview)

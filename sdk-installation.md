@@ -1,4 +1,4 @@
-# Installation
+# JavaScript SDK Installation
 
 The last thing to make everything work is to include our JavaScript SDK on your website.
 

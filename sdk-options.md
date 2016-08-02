@@ -1,4 +1,4 @@
-# Options
+# JavaScript SDK Options
 
 Options should be set in `init` function.
 

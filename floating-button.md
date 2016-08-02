@@ -1,4 +1,4 @@
-# Button plugin
+# Floating Button
 
 Simple way to provide user action button to subscribe to notifications. With nice popover to interact with user.
 

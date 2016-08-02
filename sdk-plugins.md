@@ -1,4 +1,4 @@
-# SDK Plugins
+# JavaScript SDK Plugins System
 
 ## Overview
 
