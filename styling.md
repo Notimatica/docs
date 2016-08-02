@@ -4,7 +4,7 @@
 
 Every plugin has its own css file with namespaced classes. So every style can be overwritten.
 
-For example lets look at [Floating button](/docs/floating-button) plugin. It has 2 scss styles
+For example lets look at [Floating button](/docs/floating-button) plugin. It has 2 scss styles:
 
 * [For button](https://github.com/Notimatica/sdk/blob/master/src/plugins/button/button.scss)
 * [For popover](https://github.com/Notimatica/sdk/blob/master/src/plugins/button/popover.scss)

@@ -1,7 +1,7 @@
 {.sidenav}
 - [Introduction](/docs/introduction)
 - Prologue
-    - [Release Notes](/docs/releases)
+    - [Release Notes](/docs/release-notes)
     - [API Documentation](https://notimatica.api-docs.io/1.0)
 - Setup
     - [Prerequisites](/docs/prerequisites)
