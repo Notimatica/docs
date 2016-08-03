@@ -9,17 +9,18 @@
     - [SDK Installation](/docs/sdk-installation)
 - Plugins
     - [Floating button](/docs/floating-button)
-    - [Panel](/docs/panel)
     - [Prompt](/docs/prompt)
+    - [Panel](/docs/panel)
 - Customization
     - [Localization](/docs/localization)
     - [Styling](/docs/styling)
+    - [Examples And Tutorials](/docs/examples)
 - Integrations
     - [Drupal](/docs/dupal)
     - [Wordpress](/docs/wordpress)
     - [Ghost](/docs/ghost)
 - JavaScript SDK
-    - [API](/docs/sdk-api)
+    - [API Reference](/docs/sdk-api)
     - [Options](/docs/sdk-options)
     - [Events](/docs/sdk-events)
     - [Webhooks](/docs/sdk-webhooks)

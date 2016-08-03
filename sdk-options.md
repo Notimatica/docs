@@ -16,7 +16,7 @@ Notimatica.push(['init', {
 | `subdomain` | String | `null` | Subdomain to handle HTTP fallback |
 | `debug` | Boolean | `false` | Send debug messages to the console |
 | `tags` | Array | `[]` | Additional set of tags for the user |
-| `autorun` | Boolean | `false` | Do you want to start subscription process right after page load. For HTTP sites always `false`. |
+| `autoSubscribe` | Boolean | `false` | Do you want to start subscription process right after page load. For HTTP sites always `false`. |
 | `usePopup` | Boolean | `false` | Force subscribing via HTTP fallback popup. For HTTP sites always `true` |
 | `popup` | Object | `{ height: 450, width: 550 }` | HTTP fallback popup options. Height and width in pixels |
 | `plugins` | Object | `{}` | Map of plugins to enable and their options |
