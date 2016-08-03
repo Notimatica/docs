@@ -1,6 +1,6 @@
 # Floating Button
 
-Simple way to provide user action button to subscribe to notifications. With nice popover to interact with user.
+Simple way to provide user action button to subscribe to notifications. With nice popover to interact with user that can be automatically shown if `autoSubscribe` is [enabled](/docs/examples).
 
 {.toc}
 * [Installation](#installation)
