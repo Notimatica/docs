@@ -27,7 +27,4 @@
     - [API Reference](https://notimatica.api-docs.io/1.0)
 - Prologue
     - [Release Notes](/docs/release-notes)
-- Troubleshooting
-    - [Google Chrome](/docs/trouble-chrome)
-    - [Mozilla Firefox](/docs/trouble-firefox)
-    - [Apple Safari](/docs/trouble-safari)
+- [Troubleshooting](/docs/trouble-common)

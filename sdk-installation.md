@@ -31,7 +31,7 @@ When SDK file is included, it provides an easy to use API. All available methods
 
 First, you have to find your Project ID. It is a unique string like `08823592-135f-5576-9a91-f3a0675aa1d1` that can be found  in **All Projects → Project ID** or **Project Settings → Edit Project → Project ID**.
 
-Then you need to place a small peace of JavaScript code right below SDK file. And post project ID.
+Then you need to place a small peace of JavaScript code right below SDK file.
 
 {.line-numbers}
 ```javascript
@@ -41,9 +41,9 @@ Notimatica.push(['init', {
 }]);
 ```
 
-> Don't forget to replace `PROJECT_ID` with project ID you obtained earlier.
+> Don't forget to replace `PROJECT_ID` with Project ID you obtained earlier.
 
-This is a minimum setup that is needed to make everything work. When your customer will visit your site, he will see automatic prompt to subscribe to notifications. But this way is not user friendly.
+<!--This is a minimum setup that is needed to make everything work. When your customer will visit your site, he will see automatic prompt to subscribe to notifications. But this way is not user friendly.
 
 Luckily our SDK is flexible enough to give you an easy way to modify or customize default behavior. You can do it by setting additional options in init method like this:
 
@@ -56,7 +56,7 @@ Notimatica.push(['init', {
 }]);
 ```
 
-In this example we set autorun to false, so we say that we don't want SDK prompt users to subscribe automatically, we want to do it manually.
+In this example we set autorun to false, so we say that we don't want SDK prompt users to subscribe automatically, we want to do it manually. -->
 
 <div class="callout callout-info" role="alert">
 
@@ -96,10 +96,14 @@ In this example we:
     1. Disable autorun
     1. Enable [Floating button plugin](/docs/button-plugin) for easy and verbose subscription process
 
-{#testing-in-sandbox}
-## [Testing in sandbox](#testing-in-sandbox){name="testing-in-sandbox"}
+
+<div class="callout callout-info" role="alert">
+
+#### Testing in sandbox
 
 When testing your project in sandbox (https://localhost), it may be helpful to run browser with additional flags to bypass a warning of invalid certificate. Here are tips:
 
-* Chrome: Run Chrome with --ignore-certificate-errors flag.
-* Firefox and Safari: Both have mechanisms to create exceptions for specific certificates.
+* **Chrome**: Run Chrome with `--ignore-certificate-errors` flag.
+* **Firefox and Safari**: Both have mechanisms to create exceptions for specific certificates.
+
+</div>

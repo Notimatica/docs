@@ -42,9 +42,15 @@ The next step is to install our **JavaScript SDK** on your website – [SDK Inst
 ## [Safari support (optional)](#apple-safari-support){name="apple-safari-support"}
 
 {#developer-license}
-### [Developer License](#developer-license){name="developer-license"}
+
+<div class="callout callout-warning" role="alert">
+
+#### Developer License
 
 To complete this guide you need to have an iOS or Mac OS developer account on the [Developer Programs](https://developer.apple.com/programs/) page. 
+
+</div>
+
 
 {#website-push-id-certificate}
 ### [Website Рush ID Сertificate](#website-push-id-certificate){name="website-push-id-certificate"}
