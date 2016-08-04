@@ -2,8 +2,11 @@
 
 Simple way to provide user action button to subscribe to notifications. With nice popover to interact with user that can be automatically shown if `autoSubscribe` is [enabled](/docs/examples).
 
+![floating button](/static/floating-button.png "Floating button"){height="200"}
+
 {.toc}
 * [Installation](#installation)
+* [Message](#message)
 * [Options](#options)
 * [Strings](#strings)
 
@@ -22,6 +25,32 @@ Notimatica.push(['init', {
   }
 }]);
 ```
+
+{#message}
+## [Message](#message){name="message"}
+
+Moreover, you can send a message to the user and it will appear as a nice bubble on the button and will be shown in the prompt after user clicks on it.
+
+You can do it by triggering `user:message` [event](/docs/sdk-events) like this:
+
+```javascript
+Notimatica.push([
+  'emit',
+  'user:message',
+  'You have a message!',
+  'Something on our site needs you attention.'
+])
+```
+
+**Where params are:**
+  1. method [`emit`](/docs/sdk-api#emit) tells SDK that we want to trigger an [event](/docs/sdk-events)
+  1. the event name
+  1. title of the message (if you set it to `null`, it won't be shown)
+  1. text of the message
+
+![new message](/static/new-message.png "New message"){height="100"}
+![show message](/static/show-message.png "Show message"){height="100"}
+
 
 {#options}
 ## [Options](#options){name="options"}
@@ -49,7 +78,7 @@ function {
 {#strings}
 ## [Strings](#strings){name="strings"}
 
-{.table .table-bordered .table-striped}
+{.table .table-bordered .table-striped .table-info}
 | String | Default |
 |--------|---------|
 | `popover.subscribe` | Do you want to receive desktop notifications from our site? Click Subscribe button! |
