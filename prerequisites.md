@@ -20,19 +20,19 @@ To support Google Chrome you need to create an app in Google Services, obtain **
 
   Type any new App name or select an existing app from the dropdown. We don't need the Android package name, but you have to type something here to continue like `test.test` as shown on the screen below. Finally, click "Choose and configure services".
 
-  ![Google Services Wizard](docs/static/google1.png "Google Services Wizard - Step 1")
+  ![Google Services Wizard](/static/google1.png "Google Services Wizard - Step 1")
 
   Wait a bit for the project to be created.
 
 * ##### Click "Enable Google Cloud Messaging"
 
-  ![Google Services Wizard](docs/static/google2.png "Google Services Wizard - Step 2")
+  ![Google Services Wizard](/static/google2.png "Google Services Wizard - Step 2")
 
 * ##### Save the two values listed
 
   You'll need Server API Key and Sender ID (also known as the Project Number) a bit later.
 
-  ![Google Services Wizard](docs/static/google3.png "Google Services Wizard - Step 3")
+  ![Google Services Wizard](/static/google3.png "Google Services Wizard - Step 3")
 
 Congratulations, now you are ready for Google Chrome support.
 
@@ -58,7 +58,7 @@ To complete this guide you need to have an iOS or Mac OS developer account on th
 {.step-text}
 * ##### Go to [Website Push IDs section](https://developer.apple.com/account/ios/identifier/websitePushId/landing) on Apple Member Center.
 
-  ![Apple Member Center](docs/static/apple2.png "Apple Member Center - Step 1")
+  ![Apple Member Center](/static/apple2.png "Apple Member Center - Step 1")
 
 * ##### Create a unique Website Push ID.
 
@@ -66,45 +66,45 @@ To complete this guide you need to have an iOS or Mac OS developer account on th
 
   **Identifier**. Type a reverse-domain name of your website, such as web.com.your-domain. An Identifier should start ‘web.’ prefix.
 
-  ![Apple Member Center](docs/static/apple3.png "Apple Member Center - Step 2")
+  ![Apple Member Center](/static/apple3.png "Apple Member Center - Step 2")
 
 * ##### Go to [Certificates section](https://developer.apple.com/account/ios/certificate/)
   
-  ![Apple Member Center](docs/static/apple4.png "Apple Member Center - Step 3")
+  ![Apple Member Center](/static/apple4.png "Apple Member Center - Step 3")
 
 * ##### Add a new Certificate
 
-  ![Apple Member Center](docs/static/apple5.png "Apple Member Center - Step 4")
+  ![Apple Member Center](/static/apple5.png "Apple Member Center - Step 4")
 
   Choose ‘Website Push ID Certificate’ option.
 
-  ![Apple Member Center](docs/static/apple6.png "Apple Member Center - Step 5")
+  ![Apple Member Center](/static/apple6.png "Apple Member Center - Step 5")
 
 * ##### Choose application
 
   During certificate creation process choose the **Website Push ID** which was created a minute ago and follow the steps in the wizard.
 
-  ![Apple Member Center](docs/static/apple7.png "Apple Member Center - Step 6")
+  ![Apple Member Center](/static/apple7.png "Apple Member Center - Step 6")
 
 * ##### Download the Website Рush ID Сertificate.
 
-  ![Apple Member Center](docs/static/apple8.png "Apple Member Center - Step 7")
+  ![Apple Member Center](/static/apple8.png "Apple Member Center - Step 7")
 
   We need a private key file (.p12) to configure Safari in Notimamica. Launch Keychain Access Application and select the ‘Keys’.
 
 * ##### Click on the private key associated with your Website Push ID Certificate.
 
-  ![Apple Member Center](docs/static/apple9.png "Apple Member Center - Step 8")
+  ![Apple Member Center](/static/apple9.png "Apple Member Center - Step 8")
 
 * ##### In context-menu click ‘Export’.
 
 * ##### Choose the directory to save the Private Key file (.p12).
 
-  ![Apple Member Center](docs/static/apple10.png "Apple Member Center - Step 9")
+  ![Apple Member Center](/static/apple10.png "Apple Member Center - Step 9")
 
 * ##### You will be asked to create a password. You can leave both fields blank.
 
-  ![Apple Member Center](docs/static/apple11.png "Apple Member Center - Step 10")
+  ![Apple Member Center](/static/apple11.png "Apple Member Center - Step 10")
 
 
 Congratulations, you've successfully configured prerequisites for Apple Safari.
