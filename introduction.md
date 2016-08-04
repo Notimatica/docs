@@ -1,4 +1,4 @@
-# Introduction
+# Getting started
 
 Notimatica is fast and reliable web push notification service. We make it easy to start sending notifications for engaging and retaining users on your website. We provide JavaScript SDK, server API, and a dashboard for sending web push notifications. Once the setup is done, Notimatica is a delight.
 
@@ -17,7 +17,7 @@ Notimatica is fast and reliable web push notification service. We make it easy t
 
 * Notimatica provides marketing tools including scheduled delivery, targeting, tagging, user segments, multi-language and conversion tracking stats.
 
-* Sure, you can create your own interfaces for GCM and APN protocols, but it ain't easy. There are some open source projects which can help you, but even the best fail with high volumes (more than 100,000 messages at a time). Also GCM and APN change frequently (Thank you Google and Apple!).
+* Sure, you can create your own interfaces for GCM and APN protocols, but it ain't easy. There are some open-source projects which can help you, but even the best fail with high volumes (more than 100,000 messages at a time). Also GCM and APN change frequently (Thank you Google and Apple!).
 
 {#what-are-web-push-notifications}
 ## [What are Web Push Notifications?](#what-are-web-push-notifications){name="what-are-web-push-notifications"}
@@ -32,7 +32,7 @@ Here are most common use cases for web push notifications:
 * a blog notifies subscribers when a new article has been published
 
 {#browsers-support}
-## [Which browsers provide support for web push?](#browsers-support){name="browsers-support"}
+## [Which browsers provide support for Web Push Notifications?](#browsers-support){name="browsers-support"}
 
 Web push notifications are currently supported by:
 
@@ -49,17 +49,13 @@ Please note: Push notifications are not supported in private browsing mode.
 
 Web push notifications may have a bit different outlook from one browsers to another, but they are all the same.
 
-Notifications in Chrome are displayed inside Chrome window.
-
-With Firefox it is just the same, push notifications are displayed inside Firefox window.
-
-Notifications in Safari are displayed as native MacOS notifications.
+Notifications in Chrome and Firefox are displayed inside browser window. In Safari they are displayed as native Mac OS notifications.
 
 {#web-push-advantages}
 ## [What are the advantages of Web Push Notifications?](web-push-advantages){name="web-push-advantages"}
 
 {.step-text}
-* ##### User reach
+* ##### High user reach
 
   Chrome, Firefox and Safari altogether have 92% market share. All of them is providing support for web push notifications. This means that you will have almost absolute user reach.
 
@@ -85,7 +81,7 @@ Notifications in Safari are displayed as native MacOS notifications.
 
   Unlike emails which can be filtered as a spam, web push notifications are always delivered to the subscriber.
 
-* ##### High conversion rates (CTR)
+* ##### High conversion rate (CTR)
 
   Our studies show that compared with traditional email marketing which has average 10-20% conversion rate, web push notifications have staggering 60-80% conversion rate.
 
@@ -95,9 +91,9 @@ Notifications in Safari are displayed as native MacOS notifications.
 
 We provide:
 
-* Lightweight JavaScript SDK
-* RESTful server API for custom integrations
-* Full-featured online dashboard
-* Set of modules to integrate with most common CMS
+* Lightweight [JavaScript SDK](/docs/sdk-api)
+* [RESTful Server API] for custom integrations(https://notimatica.api-docs.io)
+* Full-featured [online dashboard](https://my.notimatica.com)
+* Ready-to-use modules for major CMS
 
-If you have questions, comments or you can't find what you're looking for, please visit our Troubleshooting section or email us – [support@notimatica.io](mailto:support@notimatica.com).
+If you have questions, comments or you can't find what you're looking for, please visit our [Troubleshooting](/docs/troubleshooting) section or email us – ([support@notimatica.io](mailto:support@notimatica.com).

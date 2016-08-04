@@ -1,10 +1,7 @@
 {.sidenav}
-- [Introduction](/docs/introduction)
-- Prologue
-    - [Release Notes](/docs/release-notes)
-    - [API Documentation](https://notimatica.api-docs.io/1.0)
+- [Getting started](/docs/introduction)
 - Setup
-    - [Prerequisites](/docs/prerequisites)
+    - [Getting Prerequisites](/docs/prerequisites)
     - [Project Setup](/docs/project-setup)
     - [SDK Installation](/docs/sdk-installation)
 - Plugins
@@ -16,8 +13,9 @@
     - [Styling](/docs/styling)
     - [Examples And Tutorials](/docs/examples)
 - Integrations
-    - [Drupal](/docs/dupal)
     - [Wordpress](/docs/wordpress)
+    - [Drupal](/docs/dupal)
+    - [Joomla](/docs/joomla)
     - [Ghost](/docs/ghost)
 - JavaScript SDK
     - [API Reference](/docs/sdk-api)
@@ -25,7 +23,7 @@
     - [Events](/docs/sdk-events)
     - [Webhooks](/docs/sdk-webhooks)
     - [Plugins](/docs/sdk-plugins)
-- Troubleshooting
-    - [Google Chrome](/docs/trouble-chrome)
-    - [Mozilla Firefox](/docs/trouble-firefox)
-    - [Apple Safari](/docs/trouble-safari)
+- Server API
+    - [API Reference](https://notimatica.api-docs.io/1.0)
+- [Troubleshooting](/docs/trouble-common)
+- [Release Notes](/docs/release-notes)
