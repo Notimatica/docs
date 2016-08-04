@@ -1,7 +1,7 @@
 {.sidenav}
 - [Getting started](/docs/introduction)
 - Setup
-    - [Getting Prerequisites](/docs/prerequisites)
+    - [Prerequisites](/docs/prerequisites)
     - [Project Setup](/docs/project-setup)
     - [SDK Installation](/docs/sdk-installation)
 - Plugins
@@ -11,12 +11,7 @@
 - Customization
     - [Localization](/docs/localization)
     - [Styling](/docs/styling)
-    - [Examples And Tutorials](/docs/examples)
-- Integrations
-    - [Wordpress](/docs/wordpress)
-    - [Drupal](/docs/dupal)
-    - [Joomla](/docs/joomla)
-    - [Ghost](/docs/ghost)
+    - [Examples and Tutorials](/docs/examples)
 - JavaScript SDK
     - [API Reference](/docs/sdk-api)
     - [Options](/docs/sdk-options)
@@ -25,5 +20,10 @@
     - [Plugins](/docs/sdk-plugins)
 - Server API
     - [API Reference](https://notimatica.api-docs.io/1.0)
+- CMS Modules
+    - [Wordpress](/docs/wordpress)
+    - [Drupal](/docs/dupal)
+    - [Joomla](/docs/joomla)
+    - [Ghost](/docs/ghost)
 - [Troubleshooting](/docs/trouble-common)
 - [Release Notes](/docs/release-notes)
