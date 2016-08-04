@@ -25,6 +25,5 @@
     - [Plugins](/docs/sdk-plugins)
 - Server API
     - [API Reference](https://notimatica.api-docs.io/1.0)
-- Prologue
-    - [Release Notes](/docs/release-notes)
 - [Troubleshooting](/docs/trouble-common)
+- [Release Notes](/docs/release-notes)
