@@ -1,7 +1,5 @@
 # JavaScript SDK Plugins System
 
-## Overview
-
 SDK can easily be extended with plugins. Good example is [Floating button](/docs/floating-button) that was made as a UI element to simplify subscription process.
 
 Every plugin must be an instance of `AbstractPlugin` and should have this methods:

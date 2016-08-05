@@ -4,6 +4,7 @@
 * [Overview](#overview)
 * [Available Events](#events)
 
+{#overview}
 ## Overview
 
 Webhooks are "user-defined HTTP callbacks". They are maintained by third-party users and can be triggered by SDK events.
@@ -22,7 +23,8 @@ Notimatica.push(['init', {
 
 When event is triggered, SDK will send a POST request with all info about the received notification in JSON format.
 
-### CORS
+{#overview}
+## CORS
 
 Webhook requests will be done by browser and in most cases will be sent from other domain. That's why you may want to set [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) headers on your backend.
 
