@@ -18,6 +18,7 @@
     - [Events](/docs/sdk-events)
     - [Webhooks](/docs/sdk-webhooks)
     - [Plugins](/docs/sdk-plugins)
+    - [Release Notes](/docs/sdk-release-notes)
 - Server API
     - [API Reference](https://notimatica.api-docs.io/1.0)
 - CMS Modules
@@ -26,4 +27,3 @@
     - [Joomla](/docs/joomla)
     - [Ghost](/docs/ghost)
 - [Troubleshooting](/docs/trouble-common)
-- [Release Notes](/docs/release-notes)
