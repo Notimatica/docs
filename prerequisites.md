@@ -18,21 +18,21 @@ To support Google Chrome you need to create an app in Google Services, obtain **
 
 * ##### Choose App name and Android package name
 
-  Type any new App name or select an existing app from the dropdown. We don't need the Android package name, but you have to type something here to continue like `test.test` as shown on the screen below. Finally, click "Choose and configure services".
+  Type any new App name (better be your site name) or select an existing app from the dropdown. We don't need the Android package name, but you have to type something here to continue like `test.test` as shown on the screen below. Finally, click "Choose and configure services".
 
-  ![Google Services Wizard](/static/google1.png "Google Services Wizard - Step 1"){.img-shadow .img-responsive .center-block}
+  ![Google Services Wizard](/static/google1.png "Google Services Wizard - Step 1"){.img-rounded .img-shadow .img-responsive .center-block}
 
   Wait a bit for the project to be created.
 
 * ##### Click "Enable Google Cloud Messaging"
 
-  ![Google Services Wizard](/static/google2.png "Google Services Wizard - Step 2"){.img-shadow .img-responsive .center-block}
+  ![Google Services Wizard](/static/google2.png "Google Services Wizard - Step 2"){.img-rounded .img-shadow .img-responsive .center-block}
 
 * ##### Save the two values listed
 
   You'll need Server API Key and Sender ID (also known as the Project Number) a bit later.
 
-  ![Google Services Wizard](/static/google3.png "Google Services Wizard - Step 3"){.img-shadow .img-responsive .center-block}
+  ![Google Services Wizard](/static/google3.png "Google Services Wizard - Step 3"){.img-rounded .img-shadow .img-responsive .center-block}
 
 Congratulations, now you are ready for Google Chrome support.
 
@@ -58,7 +58,7 @@ To complete this guide you need to have an iOS or Mac OS developer account on th
 {.step-text}
 * ##### Go to [Website Push IDs section](https://developer.apple.com/account/ios/identifier/websitePushId/landing) on Apple Member Center.
 
-  ![Apple Member Center](/static/apple2.png "Apple Member Center - Step 1"){.img-shadow .img-responsive .center-block}
+  ![Apple Member Center](/static/apple2.png "Apple Member Center - Step 1"){.img-rounded .img-shadow .img-responsive .center-block}
 
 * ##### Create a unique Website Push ID.
 
@@ -66,29 +66,29 @@ To complete this guide you need to have an iOS or Mac OS developer account on th
 
   **Identifier**. Type a reverse-domain name of your website, such as web.com.your-domain. An Identifier should start ‘web.’ prefix.
 
-  ![Apple Member Center](/static/apple3.png "Apple Member Center - Step 2"){.img-shadow .img-responsive .center-block}
+  ![Apple Member Center](/static/apple3.png "Apple Member Center - Step 2"){.img-rounded .img-shadow .img-responsive .center-block}
 
 * ##### Go to [Certificates section](https://developer.apple.com/account/ios/certificate/)
 
-  ![Apple Member Center](/static/apple4.png "Apple Member Center - Step 3"){.img-shadow .img-responsive .center-block}
+  ![Apple Member Center](/static/apple4.png "Apple Member Center - Step 3"){.img-rounded .img-shadow .img-responsive .center-block}
 
 * ##### Add a new Certificate
 
-  ![Apple Member Center](/static/apple5.png "Apple Member Center - Step 4"){.img-shadow .img-responsive .center-block}
+  ![Apple Member Center](/static/apple5.png "Apple Member Center - Step 4"){.img-rounded .img-shadow .img-responsive .center-block}
 
   Choose ‘Website Push ID Certificate’ option.
 
-  ![Apple Member Center](/static/apple6.png "Apple Member Center - Step 5"){.img-shadow .img-responsive .center-block}
+  ![Apple Member Center](/static/apple6.png "Apple Member Center - Step 5"){.img-rounded .img-shadow .img-responsive .center-block}
 
 * ##### Choose application
 
   During certificate creation process choose the **Website Push ID** which was created a minute ago and follow the steps in the wizard.
 
-  ![Apple Member Center](/static/apple7.png "Apple Member Center - Step 6"){.img-shadow .img-responsive .center-block}
+  ![Apple Member Center](/static/apple7.png "Apple Member Center - Step 6"){.img-rounded .img-shadow .img-responsive .center-block}
 
 * ##### Download the Website Рush ID Сertificate.
 
-  ![Apple Member Center](/static/apple8.png "Apple Member Center - Step 7"){.img-shadow .img-responsive .center-block}
+  ![Apple Member Center](/static/apple8.png "Apple Member Center - Step 7"){.img-rounded .img-shadow .img-responsive .center-block}
 
   We need a private key file (.p12) to configure Safari in Notimamica. Launch Keychain Access Application and select the ‘Keys’.
 
