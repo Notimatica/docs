@@ -23,7 +23,7 @@ If you don’t have Google Server API Key and Google Project Number then complet
 1. [Include and initialize SDK](#include-and-initialize-sdk)
 
 {#create-new-project}
-## [Create New Project](#create-new-project){name="create-new-project"}
+## Create New Project
 
 1. Go to our Dashboard and click "New project".
 1. Enter the *Name* and *URL*. The *URL* should begin with prefix (http:// or https://) and not include subfolders.
@@ -32,7 +32,7 @@ If you don’t have Google Server API Key and Google Project Number then complet
 1. Click on "Create" button. Wait for project to be created.
 
 {#configure-chrome-and-firefox}
-## [Configure Chrome and Firefox](#configure-chrome-and-firefox)
+## Configure Chrome and Firefox
 
 1. In a newly created project go to **Project’s settings → Google Chrome, Mozilla Firefox** and click "Connect".
 1. Enter your Google Server API Key and Google Project Number (where can I get these?) and click "Connect".
@@ -42,7 +42,7 @@ If you don’t have Google Server API Key and Google Project Number then complet
 1. Upload the files to the root of your site directory.
 
 {#configure-safari}
-## [Configure Safari (optional)](#configure-safari)
+## Configure Safari (optional)
 
 <div class="callout callout-info" role="alert">
 

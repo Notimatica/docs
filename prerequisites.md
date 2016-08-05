@@ -9,7 +9,7 @@ Before start, you have to make some preparations in order to provide Notimatica 
     1. [Website Push ID Certificate](#website-push-id-certificate)
 
 {#google-chrome-support}
-## [Google Chrome Support (GCM)](#google-chrome-support){name="google-chrome-support"}
+## Google Chrome Support (GCM)
 
 To support Google Chrome you need to create an app in Google Services, obtain **Google Server API Key** and **Google Project Number**.
 
@@ -39,7 +39,7 @@ Congratulations, now you are ready for Google Chrome support.
 The next step is to install our **JavaScript SDK** on your website – [SDK Installation guide](/docs/installation).
 
 {#apple-safari-support}
-## [Safari support (optional)](#apple-safari-support){name="apple-safari-support"}{.img-shadow .img-responsive .center-block}
+## Safari support (optional)
 
 {#developer-license}
 

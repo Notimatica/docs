@@ -9,7 +9,7 @@
 * [Notification icons are not showing up in Apple Safari](#icons-not-showing)
 
 {#notifications-are-not-showing-on-website}
-## [Notifications are not showing up on my website](#notifications-are-not-showing-on-website){name="notifications-are-not-showing-on-website"}
+## Notifications are not showing up on my website
 
 Notimatica’s SDK prints handy error messages on the Developer Tools Console it works in a debug-mode. To switch to debug mode you need to add `debug: true` parameter to init() as it was shown in [Installation section](/docs/sdk-installation#initialize-sdk) or [SDK Options]('/docs/sdk-options').
 
@@ -29,7 +29,7 @@ To open the Developer Tools Console, **Context menu of the page → Inspect, →
 1. Make sure `notimatica-sw.js` is not served by a redirect. This is not allowed by browsers.
 
 {#no-notifications-in-desktop-chrome}
-## [No notifications in Google Chrome (desktop)](#no-notifications-in-desktop-chrome){name="no-notifications-in-desktop-chrome"}
+## No notifications in Google Chrome (desktop)
 
 1. Check whether you’re using modern version of Chrome v48+.
 
@@ -40,7 +40,7 @@ To open the Developer Tools Console, **Context menu of the page → Inspect, →
 1. Tap the ‘...’ menu, **Settings → Advanced → Site settings → Notifications**, make sure it's set to "Ask before sending (recommended)". On the same menu, go to "All sites", find your site and make sure notifications aren't blocked.
 
 {#no-notifications-in-mobile-chrome}
-## [No notifications in Google Chrome (mobile)](#no-notifications-in-mobile-chrome){name="no-notifications-in-mobile-chrome"}
+## No notifications in Google Chrome (mobile)
 
 If you're using an iOS device:
 
@@ -55,7 +55,7 @@ If you're using an Android device:
 1. Tap the ‘...’ menu, **Settings → Advanced → Site settings → Notifications**, make sure it's set to "Ask before sending (recommended)". On the same menu, go to "All sites", find your site and make sure notifications aren't blocked.
 
 {#no-notifications-in-desktop-firefox}
-## [No notifications in Mozilla Firefox](#no-notifications-in-desktop-firefox){name="no-notifications-in-desktop-firefox"}
+## No notifications in Mozilla Firefox
 
 1. Click the icon next your website’s URL.
 
@@ -70,7 +70,7 @@ If you're using an Android device:
 Well done! Now open close the popup and open new tab with your website.
 
 {#resetting-notifications-permissions}
-## [Resetting notification permissions and cleaning cache](#resetting-notifications-permissions)
+## Resetting notification permissions and cleaning cache
 
 If you still can’t get web push notifications work then follow these ultimate guide to reset permissions and remove Notimatica’s background worker. Even if all settings are correct at the moment, they could be incorrect in the past and this may affect notifications now.
 
@@ -100,7 +100,7 @@ If you still can’t get web push notifications work then follow these ultimate 
 
 1. Congratulations, you've nailed it. Now open a new tab with your website.
 
-## [Notification icons are not showing up in Apple Safari](#icons-not-showing){name="icons-not-showing"}
+## Notification icons are not showing up in Apple Safari
 
 On the top menu, go to **Safari → Preferences → Notifications tab** and remove your website from the list there. Then open a new tab with your website and subscribe to notifications once again. Safari will re-downloaded icons to your system and they will show up in notification prompt.
 

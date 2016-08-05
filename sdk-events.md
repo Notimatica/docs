@@ -8,7 +8,7 @@ SDK emits events for every major...events :smile: so you can easily subscribe on
 * [Internal Events](#internal-events)
 
 {#subscribing}
-## [Subscribing](#subscribing){name="subscribing"}
+## Subscribing
 
 It is extremely easy to subscribe to SDK events:
 
@@ -21,7 +21,7 @@ Notimatica.push(['on', 'subscribe:success', function () {
 First argument is method `on()`, second is an event name, third is a callback.
 
 {#public-events}
-## [Public Events](#public-events){name="public-events"}
+## Public Events
 
 {.table .table-bordered .table-striped}
 | Event | Vars | Description |
@@ -38,7 +38,7 @@ First argument is method `on()`, second is an event name, third is a callback.
 | `unsubscribe:fail` | <samp>{*} err</samp> | For some reason user failed to unsubscribe |
 
 {#internal-events}
-## [Internal Events](#internal-events){name="internal-events"}
+## Internal Events
 
 {.table .table-bordered .table-striped}
 | Event | Vars | Description |

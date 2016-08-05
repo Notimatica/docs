@@ -7,7 +7,7 @@ Every string in SDK can be localized, even text of the HTTP fallback popup, so y
 * [Popup](#popup)
 
 {#mechanism}
-## [Mechanism](#mechanism){name="mechanism"}
+## Mechanism
 
 All strings have a unique namespaced ID and can be translated on any language you like.
 
@@ -30,7 +30,7 @@ Here we translated `tooltip.subscribe` string to Russian, so that if your page w
 All strings for tooltip are namespaced with `tooltip` prefix.
 
 {#popup}
-## [Popup](#popup){name="popup"}
+## Popup
 
 HTTP fallback popup can be translated too. They have have `popup` namespace can be found [here](https://github.com/Notimatica/sdk/blob/master/src/sdk/sdk.js#L33)
 

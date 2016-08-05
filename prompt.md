@@ -10,7 +10,7 @@ Snappy way to replace default browser subscription prompt. Particularly useful i
 * [Strings](#strings)
 
 {#installation}
-## [Installation](#installation){name="installation"}
+## Installation
 
 ```javascript
 var Notimatica = Notimatica || [];
@@ -25,7 +25,7 @@ Notimatica.push(['init', {
 ```
 
 {#options}
-## [Options](#options){name="options"}
+## Options
 
 {.table .table-bordered .table-striped}
 | Name | Type | Default value | Description |
@@ -46,7 +46,7 @@ function {
 ```
 
 {#strings}
-## [Strings](#strings){name="strings"}
+## Strings
 
 {.table .table-bordered .table-striped .table-info}
 | String | Default |

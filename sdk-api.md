@@ -19,7 +19,7 @@ Notimatica.push(['subscribe']);
 * [emit({String} event)](#emit)
 
 {#init}
-## [init({Object} options)](#init){name="init"}
+## init({Object} options)
 
 Initialize SDK. Should be called on every page of your site.
 
@@ -43,7 +43,7 @@ Notimatica.push(['init', {
 ```
 
 {#subscribe}
-## [subscribe()](#subscribe){name="subscribe"}
+## subscribe()
 
 Start subscription process.
 
@@ -54,7 +54,7 @@ Notimatica.push(['subscribe']);
 ```
 
 {#unsubscribe}
-## [unsubscribe()](#unsubscribe){name="unsubscribe"}
+## unsubscribe()
 
 Unsubscribes user from notifications
 
@@ -65,7 +65,7 @@ Notimatica.push(['unsubscribe']);
   ```
 
 {#isSubscribed}
-## [isSubscribed() : {Boolean}](#isSubscribed){name="isSubscribed"}
+## isSubscribed() : {Boolean}
 
 If user is subscribed.
 
@@ -81,7 +81,7 @@ if (Notimatica.push(['isSubscribed'])) {
 ```
 
 {#isUnsubscribed}
-## [isUnsubscribed() : {Boolean}](#isUnsubscribed){name="isUnsubscribed"}
+## isUnsubscribed() : {Boolean}
 
 If user is or was unsubscribed.
 
@@ -97,7 +97,7 @@ if (Notimatica.push(['isSubscribed'])) {
 ```
 
 {#on}
-## [on({String} event, {Function} callback)](#on){name="on"}
+## on({String} event, {Function} callback)
 
 Subscribe to SDK event.
 
@@ -114,7 +114,7 @@ Notimatica.push(['on', 'ready', function () {
 ```
 
 {#emit}
-## [emit({String} event)](#emit){name="emit"}
+## emit({String} event)
 
 Trigger the event.
 

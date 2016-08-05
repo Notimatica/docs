@@ -11,7 +11,7 @@ Simple way to provide user action button to subscribe to notifications. With nic
 * [Strings](#strings)
 
 {#installation}
-## [Installation](#installation){name="installation"}
+## Installation
 
 ```javascript
 var Notimatica = Notimatica || [];
@@ -27,7 +27,7 @@ Notimatica.push(['init', {
 ```
 
 {#message}
-## [Message](#message){name="message"}
+## Message
 
 Moreover, you can send a message to the user and it will appear as a nice bubble on the button and will be shown in the prompt after user clicks on it.
 
@@ -53,7 +53,7 @@ Notimatica.push([
 
 
 {#options}
-## [Options](#options){name="options"}
+## Options
 
 {.table .table-bordered .table-striped}
 | Name | Type | Default value | Description |
@@ -76,7 +76,7 @@ function {
 ```
 
 {#strings}
-## [Strings](#strings){name="strings"}
+## Strings
 
 {.table .table-bordered .table-striped .table-info}
 | String | Default |

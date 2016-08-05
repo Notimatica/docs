@@ -11,7 +11,7 @@ Notimatica is fast and reliable web push notification service. We make it easy t
 1. [How to get started?](#how-to-get-started)
 
 {#why-use-notimatica}
-## [Why use Notimatica?](#why-use-notimatica){name="why-use-notimatica"}
+## Why use Notimatica?
 
 * Notimatica provides a full-featured UI and a single SDK to deliver web-push notifications across Chrome, Safari and Firefox Browser.
 
@@ -20,7 +20,7 @@ Notimatica is fast and reliable web push notification service. We make it easy t
 * Sure, you can create your own interfaces for GCM and APN protocols, but it ain't easy. There are some open-source projects which can help you, but even the best fail with high volumes (more than 100,000 messages at a time). Also GCM and APN change frequently (Thank you Google and Apple!).
 
 {#what-are-web-push-notifications}
-## [What are Web Push Notifications?](#what-are-web-push-notifications){name="what-are-web-push-notifications"}
+## What are Web Push Notifications?
 
 Web push notifications are the best thing in web since the the invention of hyperlink. These are messages that come from a website. User sees them on a desktop even when the website is not open in a browser. It is a great new marketing tool to engage and retain users on a website without getting their email or other contact details.
 
@@ -32,7 +32,7 @@ Here are most common use cases for web push notifications:
 * a blog notifies subscribers when a new article has been published
 
 {#browsers-support}
-## [Which browsers provide support for Web Push Notifications?](#browsers-support){name="browsers-support"}
+## Which browsers provide support for Web Push Notifications?
 
 Web push notifications are currently supported by:
 
@@ -45,14 +45,14 @@ Web push notifications are currently supported by:
 Please note: Push notifications are not supported in private browsing mode.
 
 {#browsers-difference}
-## [What is the difference between push notifications in Chrome, Safari and Firefox?](#browsers-difference){name="browsers-difference"}
+## What is the difference between push notifications in Chrome, Safari and Firefox?
 
 Web push notifications may have a bit different outlook from one browsers to another, but they are all the same.
 
 Notifications in Chrome and Firefox are displayed inside browser window. In Safari they are displayed as native Mac OS notifications.
 
 {#web-push-advantages}
-## [What are the advantages of Web Push Notifications?](web-push-advantages){name="web-push-advantages"}
+## What are the advantages of Web Push Notifications?
 
 {.step-text}
 * ##### High user reach

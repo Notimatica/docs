@@ -10,7 +10,7 @@ The last thing to make everything work is to include our JavaScript SDK on your 
 * [Testing in sandbox](#testing-in-sandbox)
 
 {#include-manifest-file}
-## [Include manifest file](#include-manifest-file){name="include-manifest-file"}
+## Include manifest file
 
 Include **manifest.json** at the top of your `<head>` tag.
 
@@ -18,14 +18,14 @@ Include **manifest.json** at the top of your `<head>` tag.
 * Your `<link rel="manifest" href="/manifest.json">` must appear before any other `<link rel="manifest" ...>` in `<head>`, otherwise it will not be found.
 
 {#include-sdk-file}
-## [Include JavaScript SDK file](#include-sdk-file){name="include-sdk-file"}
+## Include JavaScript SDK file
 
 Include `<script src="https://cdn.notimatica.io/sdks/latest/notimatica-sdk.js" async></script>` in your `<head>` tag.
 
 Our SDK is fully asynchronous and event based so you don't have to worry that you place it in the head, it will not slow your page loading.
 
 {#initialize-sdk}
-## [Initialize SDK](#initialize-sdk){name="initialize-sdk"}
+## Initialize SDK
 
 When SDK file is included, it provides an easy to use API. All available methods are described in the [Javascript SDK](/docs/javascript-sdk) section. But first, lets initialize it.
 
@@ -65,7 +65,7 @@ All additional information about extra options with lots of examples you can fin
 </div>
 
 {#full-example}
-## [Full Example](#full-example){name="full-example"}
+## Full Example
 
 {.line-numbers}
 ```markup
