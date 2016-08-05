@@ -17,6 +17,9 @@ Notimatica.push(['subscribe']);
 * [isUnsubscribed() : {Boolean}](#isUnsubscribed)
 * [on({String} event, {Function} callback)](#on)
 * [emit({String} event)](#emit)
+* [resetHistory](#resetHistory)
+* [resetState](#resetState)
+* [resetSDK](#resetSDK)
 
 {#init}
 ## init({Object} options)
@@ -125,4 +128,37 @@ Trigger the event.
 
 ```javascript
 Notimatica.push(['emit', 'error', 'Something bad happened'])
+```
+
+{#resetHistory}
+## resetHistory()
+
+Reset history of received notifications.
+
+**Example**
+
+```javascript
+Notimatica.push(['resetHistory'])
+```
+
+{#resetState}
+## resetState()
+
+Reset saved state and settings.
+
+**Example**
+
+```javascript
+Notimatica.push(['resetState'])
+```
+
+{#resetSDK}
+## resetSDK()
+
+Reset already inited SDK.
+
+**Example**
+
+```javascript
+Notimatica.push(['resetSDK'])
 ```

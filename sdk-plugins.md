@@ -42,7 +42,7 @@ get strings () {
  * @return {String}
  */
 get template () {
-  return ''
+  return '<div class="notimatica-reset notimatica-plugin-wrapper"></div>'
 }
 /**
  * Play.
@@ -51,5 +51,15 @@ play () {}
 ```
 
 Default options will be merged with user specified so everything can me overwritten.
+
+<div class="callout callout-warning" role="alert">
+
+#### Note!
+
+Template's parent node should always have `notimatica-reset` and `notimatica-plugin-wrapper` classes (as in example above).
+
+First [resets](/docs/styling#common-classes) page styles, second used to interact with the plugin's template in the future.
+
+</div>
 
 Full example of how it works can be found [here](https://github.com/Notimatica/sdk/blob/master/src/plugins/button/plugin.js).

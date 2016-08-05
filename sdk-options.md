@@ -25,3 +25,4 @@ Notimatica.push(['init', {
 | `matchExactUrl` | Boolean | `true` | URL comparison strategy for opening new tab on notification click |
 | `webhooks` | Object | `{}` | Map of webhooks to push for multiple notifications events |
 | `webhooksCors` | Boolean | `false` | If your webhooks support CORS requests |
+| `emulate` | Boolean | `false` | Subscribing and unsubscribing will be emulated and will be successful |

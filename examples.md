@@ -140,4 +140,56 @@
 
   </div>
 
+* ###### Can I change SDK options in runtime?
+
+  <div>
+
+  Yes. You can do it like this:
+
+  ```javascript
+  var Notimatica = Notimatica || [];
+
+  // First init
+  Notimatica.push(['init', {
+    project: 'PROJECT_ID',
+    autoSubscribe: true
+  }]);
+
+  // Reset SDK to initial state
+  Notimatica.push(['resetSDK']);
+
+  // Init it again but with different options
+  Notimatica.push(['init', {
+    project: 'PROJECT_ID',
+    autoSubscribe: false
+  }]);
+  ```
+
+  <div class="callout callout-warning" role="alert">
+
+  #### Attention!
+
+  Once you reset SDK, you loose all your event bindings. After reset don't forget to set them again.
+
+  </div>
+
+  </div>
+
+* ###### How can I test SDK functionality without connecting to Notimatica?
+
+  <div>
+
+  You can always emulate this process by setting `emulate` option. It can be useful if you want to test compatibility or our functionality before you connect to us.
+
+  This option makes using project ID optional so emulation process will be acting like your site is fully HTTPS. So no popups.
+
+  ```javascript
+  var Notimatica = Notimatica || [];
+  Notimatica.push(['init', {
+    emulate: true
+  }]);
+  ```
+
+  </div>
+
 </div>
