@@ -31,6 +31,9 @@ Notimatica.push(['init', {
 
 Moreover, you can send a message to the user and it will appear as a nice bubble on the button and will be shown in the prompt after user clicks on it.
 
+![new message](/static/new-message.png "New message"){height="100"}
+![show message](/static/show-message.png "Show message"){height="100"}
+
 You can do it by triggering `user:message` [event](/docs/sdk-events) like this:
 
 ```javascript
@@ -47,10 +50,6 @@ Notimatica.push([
   1. the event name
   1. title of the message (if you set it to `null`, it won't be shown)
   1. text of the message
-
-![new message](/static/new-message.png "New message"){height="100"}
-![show message](/static/show-message.png "Show message"){height="100"}
-
 
 {#options}
 ## Options
