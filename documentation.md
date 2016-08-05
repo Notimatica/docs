@@ -4,6 +4,7 @@
     - [Prerequisites](/docs/prerequisites)
     - [Project Setup](/docs/project-setup)
     - [SDK Installation](/docs/sdk-installation)
+    - [Tagging](/docs/tagging)
 - Plugins
     - [Floating button](/docs/floating-button)
     - [Prompt](/docs/prompt)

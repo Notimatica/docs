@@ -52,11 +52,11 @@ Luckily our SDK is flexible enough to give you an easy way to modify or customiz
 var Notimatica = Notimatica || [];
 Notimatica.push(['init', {
   project: 'PROJECT_ID',
-  autorun: false
+  autoSubscribe: false
 }]);
 ```
 
-In this example we set autorun to false, so we say that we don't want SDK prompt users to subscribe automatically, we want to do it manually. -->
+In this example we set autoSubscribe to false, so we say that we don't want SDK prompt users to subscribe automatically, we want to do it manually. -->
 
 <div class="callout callout-info" role="alert">
 
@@ -76,7 +76,6 @@ All additional information about extra options with lots of examples you can fin
   var Notimatica = Notimatica || [];
   Notimatica.push(['init', {
     project: '08823592-135f-5576-9a91-f3a0675aa1d1',
-    autorun: false,
     plugins: {
       button: {
         enable: true
@@ -93,9 +92,7 @@ In this example we:
 1. Include JavaScript SDK file
 1. Init SDK
     1. Set project ID
-    1. Disable autorun
     1. Enable [Floating button plugin](/docs/button-plugin) for easy and verbose subscription process
-
 
 <div class="callout callout-info" role="alert">
 
