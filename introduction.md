@@ -1,4 +1,4 @@
-# Getting started
+# Intro
 
 Notimatica is fast and reliable web push notification service. We make it easy to start sending notifications for engaging and retaining users on your website. We provide JavaScript SDK, server API, and a dashboard for sending web push notifications. Once the setup is done, Notimatica is a delight.
 
@@ -13,7 +13,7 @@ Notimatica is fast and reliable web push notification service. We make it easy t
 {#why-use-notimatica}
 ## Why use Notimatica?
 
-* Notimatica provides a full-featured UI and a single SDK to deliver web-push notifications across Chrome, Safari and Firefox Browser.
+* Notimatica provides a full-featured UI and an easy-to-integrate SDK to deliver Web Push Notifications across Chrome, Safari and Firefox.
 
 * Notimatica provides marketing tools including scheduled delivery, targeting, tagging, user segments, multi-language and conversion tracking stats.
 
@@ -42,14 +42,19 @@ Web push notifications are currently supported by:
 * **Microsoft Edge / Internet Explorer:** Not supported
 * **Opera:** Not supported
 
-Please note: Push notifications are not supported in private browsing mode.
+<div class="callout callout-info" role="alert">
+
+#### Please Note
+Push notifications are not supported in private browsing mode.
+
+</div>
 
 {#browsers-difference}
 ## What is the difference between push notifications in Chrome, Safari and Firefox?
 
-Web push notifications may have a bit different outlook from one browsers to another, but they are all the same.
+Web push notifications may have a bit different outlook from one browser to another.
 
-Notifications in Chrome and Firefox are displayed inside browser window. In Safari they are displayed as native Mac OS notifications.
+Notifications in **Chrome** and **Firefox** are displayed inside browser window. In Safari on Mac they are displayed as native Mac OS notifications.
 
 {#web-push-advantages}
 ## What are the advantages of Web Push Notifications?
@@ -57,7 +62,7 @@ Notifications in Chrome and Firefox are displayed inside browser window. In Safa
 {.step-text}
 * ##### High user reach
 
-  Chrome, Firefox and Safari altogether have 92% market share. All of them is providing support for web push notifications. This means that you will have almost absolute user reach.
+  Chrome, Firefox and Safari altogether have **92% market share**. All of them is providing support for web push notifications. This means that you will have almost absolute user reach.
 
 * ##### Ability to re-engage users who are not on your website
 
@@ -75,7 +80,7 @@ Notifications in Chrome and Firefox are displayed inside browser window. In Safa
 
 * ##### Instant delivery
 
-  The moment you click "Send" button, your message will be delivered to the users in amount of second. Notimatica is highly scalable service specifically designed to serve millions of notifications per minute.
+  The moment you click "Send", your message will be delivered to the users in amount of second. Notimatica is highly scalable service specifically designed to serve millions of notifications per minute.
 
 * ##### Delivery with guaranty
 
@@ -83,17 +88,25 @@ Notifications in Chrome and Firefox are displayed inside browser window. In Safa
 
 * ##### High conversion rate (CTR)
 
-  Our studies show that compared with traditional email marketing which has average 10-20% conversion rate, web push notifications have staggering 60-80% conversion rate.
+  Our studies show that compared with traditional email marketing which has average 10-20% conversion rate, **web push notifications have staggering 60-80% conversion rate**.
 
 * ##### No need to build a mobile app
 
   You can get all the benefits of mobile push technology with web push notifications. They work alike. No need to invest your limited resources in building mobile app just to get ability to notify users.
 
-We provide:
+{#how-to-get-started?}
+## How to get started?
 
-* Lightweight [JavaScript SDK](/docs/sdk-api)
-* [RESTful Server API] for custom integrations(https://notimatica.api-docs.io)
-* Full-featured [online dashboard](https://my.notimatica.com)
-* Ready-to-use modules for major CMS
+Follow our Configuration guide to setup a new project in Notimatica.
+Follow our Installation guide 
 
-If you have questions, comments or you can't find what you're looking for, please visit our [Troubleshooting](/docs/troubleshooting) section or email us – ([support@notimatica.io](mailto:support@notimatica.com).
+  1. Start with step-by-step [Getting Prerequistes Guide](/docs/prerequisites).
+  1. Next stop is [Project Setup Guide](/docs/project-setup) to configure your project in Notimatica.
+  1. At last follow [SDK Installation Guide](/docs/sdk-installation) to put our lightweight JavaScript SDK on your website.
+
+  You may also be interested in:
+* [JavaScript SDK](/docs/sdk-api) API reference.
+* RESTful [Server API](https://notimatica.api-docs.io) for custom server-to-server integrations.
+* Ready-to-use modules for CMS ([WordPress](/docs/wordpress), [Drupal](/docs/drupal), [Joomla](/docs/joomla) and others)
+
+If you have questions, comments or you can't find something, please visit [Troubleshooting](/docs/troubleshooting) or email us – ([support@notimatica.io](mailto:support@notimatica.com).

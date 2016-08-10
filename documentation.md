@@ -1,6 +1,6 @@
 {.sidenav}
-- [Getting started](/docs/introduction)
-- Setup
+- [Intro](/docs/introduction)
+- Getting Started
     - [Prerequisites](/docs/prerequisites)
     - [Project Setup](/docs/project-setup)
     - [SDK Installation](/docs/sdk-installation)
@@ -23,7 +23,7 @@
 - Server API
     - [API Reference](https://notimatica.api-docs.io/1.0)
 - CMS Modules
-    - [Wordpress](/docs/wordpress)
+    - [WordPress](/docs/wordpress)
     - [Drupal](/docs/dupal)
     - [Joomla](/docs/joomla)
     - [Ghost](/docs/ghost)

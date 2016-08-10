@@ -1,12 +1,10 @@
 # Prerequisites
 
-Before start, you have to make some preparations in order to provide Notimatica with prerequisites for Web Push Notifications delivery. Don’t be afraid this guide will help you.
+Firstly, you have to obtain prerequisites from Google and Apple (optional), which are neccesary to setup you project in Notimatica. 
 
 {.toc}
-1. [Google Chrome support (GCM)](#google-chrome-support)
-1. [Apple Safari support (optional)](#apple-safari-support)
-    1. [Developer license](#developer-license)
-    1. [Website Push ID Certificate](#website-push-id-certificate)
+1. [Google Chrome Support (GCM)](#google-chrome-support)
+1. [Apple Safari Support (APN)](#apple-safari-support)
 
 {#google-chrome-support}
 ## Google Chrome Support (GCM)
@@ -18,95 +16,113 @@ To support Google Chrome you need to create an app in Google Services, obtain **
 
 * ##### Choose App name and Android package name
 
-  Type any new App name (better be your site name) or select an existing app from the dropdown. We don't need the Android package name, but you have to type something here to continue like `test.test` as shown on the screen below. Finally, click "Choose and configure services".
+  Type new **App name** (it can be the name of your website) or select an existing app from the dropdown. 
+  We don't need the Android package name, but you have to type something here to continue like `test.test` as shown on the screen below. Finally, click "Choose and configure services".
 
   ![Google Services Wizard](/static/google1.png "Google Services Wizard - Step 1"){.img-rounded .img-shadow .img-responsive .center-block}
 
-  Wait a bit for the project to be created.
+  Please, wait for the project to be created.
 
 * ##### Click "Enable Google Cloud Messaging"
 
   ![Google Services Wizard](/static/google2.png "Google Services Wizard - Step 2"){.img-rounded .img-shadow .img-responsive .center-block}
 
-* ##### Save the two values listed
+* ##### Save the two values 
 
-  You'll need Server API Key and Sender ID (also known as the Project Number) a bit later.
+  You'll need **Server API Key** and **Sender ID** (also known as the Project Number) a bit later.
 
   ![Google Services Wizard](/static/google3.png "Google Services Wizard - Step 3"){.img-rounded .img-shadow .img-responsive .center-block}
 
-Congratulations, now you are ready for Google Chrome support.
+* ##### Congratulations
+  Now you're ready to enable Google Chrome Support in Notimatica.
 
-The next step is to install our **JavaScript SDK** on your website – [SDK Installation guide](/docs/installation).
+  The next step is to install **JavaScript SDK** on your website with the help of [SDK Installation Guide](/docs/installation).
 
 {#apple-safari-support}
-## Safari support (optional)
+## Apple Safari Support (APNS)
 
 {#developer-license}
 
-<div class="callout callout-warning" role="alert">
+<div class="callout callout-alert" role="alert">
 
-#### Developer License
-
-To complete this guide you need to have an iOS or Mac OS developer account on the [Developer Programs](https://developer.apple.com/programs/) page.
+#### Safari Support is Optional
+* Using Google Chrome and Mozilla Firefox as your only web push notification platform is totally fine as they have 80% market share combined.
+* iOS and Windows are currently not supported
+* To complete this guide you need to have an active iOS or Mac OS developer account in the [Apple Developer Program](https://developer.apple.com/programs/).
 
 </div>
 
-
 {#website-push-id-certificate}
-### [Website Рush ID Сertificate](#website-push-id-certificate){name="website-push-id-certificate"}
+### Website Рush ID Сertificate
 
 {.step-text}
-* ##### Go to [Website Push IDs section](https://developer.apple.com/account/ios/identifier/websitePushId/landing) on Apple Member Center.
+* ##### Go to [Website Push IDs section](https://developer.apple.com/account/ios/identifier/websitePushId/landing) of Provisioning Portal.
 
   ![Apple Member Center](/static/apple2.png "Apple Member Center - Step 1"){.img-rounded .img-shadow .img-responsive .center-block}
 
-* ##### Create a unique Website Push ID.
+* ##### Create new Website Push ID
 
-  **Website Push ID Description**. This is the name used throughout the Provisioning Portal to refer to your website. Use it to label your Website Push IDs into a more human-readable format for your own benefit.
-
-  **Identifier**. Type a reverse-domain name of your website, such as web.com.your-domain. An Identifier should start ‘web.’ prefix.
+  Type new **Website Push ID Description** (it can be the name of your website). Next, type **Identifier** as a reverse-domain name of your website, such as web.com.your-domain (it should start with `web.` prefix). Finally, click "Continue".
 
   ![Apple Member Center](/static/apple3.png "Apple Member Center - Step 2"){.img-rounded .img-shadow .img-responsive .center-block}
 
-* ##### Go to [Certificates section](https://developer.apple.com/account/ios/certificate/)
+  Click "Register"
 
   ![Apple Member Center](/static/apple4.png "Apple Member Center - Step 3"){.img-rounded .img-shadow .img-responsive .center-block}
 
-* ##### Add a new Certificate
+* ##### Go to [Certificates section](https://developer.apple.com/account/ios/certificate/) on Provisioning Portal.
 
   ![Apple Member Center](/static/apple5.png "Apple Member Center - Step 4"){.img-rounded .img-shadow .img-responsive .center-block}
+
+* ##### Create new Certificate
 
   Choose ‘Website Push ID Certificate’ option.
 
   ![Apple Member Center](/static/apple6.png "Apple Member Center - Step 5"){.img-rounded .img-shadow .img-responsive .center-block}
 
-* ##### Choose application
+* ##### Select Website Рush ID
 
-  During certificate creation process choose the **Website Push ID** which was created a minute ago and follow the steps in the wizard.
+  Сhoose the **Website Push ID** which we created a moment ago and click "Continue".
 
   ![Apple Member Center](/static/apple7.png "Apple Member Center - Step 6"){.img-rounded .img-shadow .img-responsive .center-block}
 
-* ##### Download the Website Рush ID Сertificate.
+* ##### Download the Website Рush ID Сertificate
+  Save certificate file `.cer` to your computer.
 
   ![Apple Member Center](/static/apple8.png "Apple Member Center - Step 7"){.img-rounded .img-shadow .img-responsive .center-block}
 
-  We need a private key file (.p12) to configure Safari in Notimamica. Launch Keychain Access Application and select the ‘Keys’.
+<div class="callout callout-info" role="alert">
 
-* ##### Click on the private key associated with your Website Push ID Certificate.
+* ##### Private Key File
+  Now we need to get Private Key File `.p12` in order to complete the process.
+
+</div>
+
+* ##### Launch Keychain Access App
+  Go to "Certificates" section.
+
+  ![Apple Member Center](/static/apple13.png "Apple Member Center - Step 8"){.center-block}
+
+* ##### Choose the Private Key associated with your Website Push ID Certificate
+  As shown below:
 
   ![Apple Member Center](/static/apple9.png "Apple Member Center - Step 8"){.img-responsive .center-block}
 
-* ##### In context-menu click ‘Export’.
+* ##### Export the Private Key file
+  In context menu click "Export".
 
-* ##### Choose the directory to save the Private Key file (.p12).
+  ![Apple Member Center](/static/apple12.png "Apple Member Center - Step 8"){.img-responsive .center-block}
+
+* ##### Choose the directory to save the Private Key file
 
   ![Apple Member Center](/static/apple10.png "Apple Member Center - Step 9"){.img-responsive .center-block}
 
-* ##### You will be asked to create a password. You can leave both fields blank.
+* ##### Private Key File Password
+  You'll be asked to create a password. Please, leave both fields blank.
 
   ![Apple Member Center](/static/apple11.png "Apple Member Center - Step 10"){.img-responsive .center-block}
 
+* ##### Hurray!
+  It wasn't easy, but you've nailed it! Now you have prerequisites for Apple Safari Support in Notimatica.
 
-Congratulations, you've successfully configured prerequisites for Apple Safari.
-
-The next step is to install our JavaScript SDK on your website – [SDK Installation guide](/docs/installation).
+  The next step is to install **JavaScript SDK** on your website with the help of [SDK Installation Guide](/docs/installation).
