@@ -5,7 +5,7 @@ Notimatica is fast and reliable web push notification service. We make it easy t
 {.toc}
 1. [Why use Notimatica?](#why-use-notimatica)
 1. [What are Web Push Notifications?](#what-are-web-push-notifications)
-1. [Which browsers provide support for web push?](#browsers-support)
+1. [Which browsers support Web Push Technology?](#browsers-support)
 1. [What is the difference between push notifications in Chrome, Firefox and Safari?](#browsers-difference)
 1. [What are the advantages of Web Push Notifications?](#web-push-advantages)
 1. [How to get started?](#how-to-get-started)
@@ -45,7 +45,7 @@ Web push notifications are currently supported by:
 <div class="callout callout-info" role="alert">
 
 #### Please Note
-Push notifications are not supported in private browsing mode.
+Push notifications are not supported in Private Browsing mode, Incognito mode, Guest browsing mode and Full-screen mode. 
 
 </div>
 
@@ -76,7 +76,7 @@ Notifications in **Chrome** and **Firefox** are displayed inside browser window.
 
   Since web push notifications help to protect user's privacy (users don't give away their emails or other contact details) users opt-in with more desire than for traditional emails lists.
 
-  They also have ability to unsubscribe from receiving notification anytime they want. **Studies show that the churn rate for subscribers of web push notifications during the first year is less than 10%.**
+  They also have ability to unsubscribe from receiving notification anytime they want. Studies show that the **churn rate** for subscribers of web push notifications during the first year is **less than 10%**.
 
 * ##### Instant delivery
 
@@ -88,7 +88,7 @@ Notifications in **Chrome** and **Firefox** are displayed inside browser window.
 
 * ##### High conversion rate (CTR)
 
-  Our studies show that compared with traditional email marketing which has average 10-20% conversion rate, **web push notifications have staggering 60-80% conversion rate**.
+  Our studies show that compared with traditional email marketing which has average 10-20% conversion rate, web push notifications have staggering **60-80% conversion rate**.
 
 * ##### No need to build a mobile app
 
@@ -106,7 +106,7 @@ Follow our Installation guide
 
   You may also be interested in:
 * [JavaScript SDK](/docs/sdk-api) API reference.
-* RESTful [Server API](https://notimatica.api-docs.io) for custom server-to-server integrations.
+* [Server REST API](https://notimatica.api-docs.io) for custom server-to-server integrations.
 * Ready-to-use modules for CMS ([WordPress](/docs/wordpress), [Drupal](/docs/drupal), [Joomla](/docs/joomla) and others)
 
-If you have questions, comments or you can't find something, please visit [Troubleshooting](/docs/troubleshooting) or email us – ([support@notimatica.io](mailto:support@notimatica.com).
+If you have questions, comments or you can't find something, please visit [Troubleshooting](/docs/troubleshooting), [Examples](/docs/examples) or drop us a line at ([support@notimatica.io](mailto:support@notimatica.com).

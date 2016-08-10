@@ -1,6 +1,6 @@
 # Prerequisites
 
-Firstly, you have to obtain prerequisites from Google and Apple (optional), which are neccesary to setup you project in Notimatica. 
+First of all, you have to obtain prerequisites from Google and Apple (optionaly), which are neccesary to setup you Project in Notimatica. 
 
 {.toc}
 1. [Google Chrome Support (GCM)](#google-chrome-support)
@@ -29,7 +29,7 @@ To support Google Chrome you need to create an app in Google Services, obtain **
 
 * ##### Save the two values 
 
-  You'll need **Server API Key** and **Sender ID** (also known as the Project Number) a bit later.
+  You'll need **Server API Key** and **Sender ID** (also known as the Project Number) a bit later in Project Setup Guide.
 
   ![Google Chrome Support](/static/prerequisites/google3.png "Google Chrome Support - Step 3"){.img-rounded .img-shadow .img-responsive .center-block}
 
@@ -41,13 +41,19 @@ To support Google Chrome you need to create an app in Google Services, obtain **
 {#apple-safari-support}
 ## Apple Safari Support (APNS)
 
-{#developer-license}
-
-<div class="callout callout-alert" role="alert">
+<div class="callout callout-info" role="alert">
 
 #### Safari Support is Optional
 * Using Google Chrome and Mozilla Firefox as your only web push notification platform is totally fine as they have 80% market share combined.
 * iOS and Windows are currently not supported
+
+</div>
+
+{#apple-developer-license}
+<div class="callout callout-alert" role="alert">
+
+#### Safari Support is Optional
+
 * To complete this guide you need to have an active iOS or Mac OS developer account in the [Apple Developer Program](https://developer.apple.com/programs/).
 
 </div>
