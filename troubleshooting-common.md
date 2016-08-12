@@ -59,7 +59,7 @@ To access Developer Tools Console:
 
 1. Check whether you’re using modern version of Chrome v48+.
 
-1. Check whether you’re not in Incognito mode, Guest browsing mode. Web push notifications are not working in these modes.
+1. Check whether you’re not in Incognito mode, Guest browsing mode. Push notifications are not working in these modes.
 
 1. Check whether you’re not in Full-screen mode. Chrome hides notifications in Full-screen mode.
 
@@ -70,7 +70,7 @@ To access Developer Tools Console:
 
 **If you're using an iOS device:**
 
-Currently Apple does not support Web Push Notifications, only native app notifications.
+Currently Apple does not support web push notifications, only native app notifications.
 
 **If you're using an Android device:**
 
@@ -91,7 +91,7 @@ Currently Apple does not support Web Push Notifications, only native app notific
 {#resetting-notifications-permissions}
 ## Resetting notification permissions and cleaning cache
 
-If you still can’t get Web Push Notifications work then follow these ultimate guide to reset permissions and remove Notimatica’s background worker. Even if all settings are correct at the moment, they could be incorrect in the past and this may affect notifications now.
+If you still can’t get push notifications work then follow these ultimate guide to reset permissions and remove Notimatica’s background worker. Even if all settings are correct at the moment, they could be incorrect in the past and this may affect notifications now.
 
 ### Google Chrome (desktop)
 

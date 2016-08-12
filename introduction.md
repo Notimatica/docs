@@ -1,19 +1,19 @@
 # Intro
 
-Notimatica is fast and reliable web push notification service. We make it easy to start sending notifications for engaging and retaining users on your website. We provide JavaScript SDK, server API, and a dashboard for sending web push notifications. Once the setup is done, Notimatica is a delight.
+Notimatica is fast and reliable web push notification service. We make it easy to start sending notifications for engaging and retaining users on your website. We provide JavaScript SDK, server API, and a dashboard for sending messages. Once the setup is done, Notimatica is a delight.
 
 {.toc}
 1. [Why use Notimatica?](#why-use-notimatica)
-1. [What are Web Push Notifications?](#what-are-web-push-notifications)
-1. [Which browsers support Web Push Technology?](#browsers-support)
+1. [What are web push notifications?](#what-are-web-push-notifications)
+1. [Which browsers support web push Technology?](#browsers-support)
 1. [What is the difference between push notifications in Chrome, Firefox and Safari?](#browsers-difference)
-1. [What are the advantages of Web Push Notifications?](#web-push-advantages)
+1. [What are the advantages of web push Notifications?](#web-push-advantages)
 1. [How to get started?](#how-to-get-started)
 
 {#why-use-notimatica}
 ## Why use Notimatica?
 
-* Notimatica provides a full-featured UI and an easy-to-integrate SDK to deliver Web Push Notifications across Chrome, Safari and Firefox.
+* Notimatica provides a full-featured UI and an easy-to-integrate SDK to deliver web push notifications across Chrome, Safari and Firefox.
 
 * Notimatica provides marketing tools including scheduled delivery, targeting, tagging, user segments, multi-language and conversion tracking stats.
 
@@ -22,7 +22,7 @@ Notimatica is fast and reliable web push notification service. We make it easy t
 {#what-are-web-push-notifications}
 ## What are Web Push Notifications?
 
-Web push notifications are the best thing in web since the the invention of hyperlink. These are messages that come from a website. User sees them on a desktop even when the website is not open in a browser. It is a great new marketing tool to engage and retain users on a website without getting their email or other contact details.
+Web push notification probably is the best thing in the Web since the the invention of hyperlink. These are messages that come from a website. User sees them on a desktop even when the website is not open in a browser. It is a great new marketing tool to engage and retain users on a website without getting their email or other contact details.
 
 Here are most common use cases for web push notifications:
 
@@ -32,7 +32,7 @@ Here are most common use cases for web push notifications:
 * a blog notifies subscribers when a new article has been published
 
 {#browsers-support}
-## Which browsers provide support for Web Push Notifications?
+## Which browsers provide support for web push notifications?
 
 Web push notifications are currently supported by:
 
@@ -57,12 +57,12 @@ Web push notifications may have a bit different outlook from one browser to anot
 Notifications in **Chrome** and **Firefox** are displayed inside browser window. In Safari on Mac they are displayed as native Mac OS notifications.
 
 {#web-push-advantages}
-## What are the advantages of Web Push Notifications?
+## What are the advantages of web push notifications?
 
 {.step-text}
 * ##### High user reach
 
-  Chrome, Firefox and Safari altogether have **92% market share**. All of them is providing support for web push notifications. This means that you will have almost absolute user reach.
+  Chrome, Firefox and Safari altogether have **92% market share**. All of them is providing support for push notifications. This means that you will have almost absolute user reach.
 
 * ##### Ability to re-engage users who are not on your website
 

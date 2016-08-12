@@ -73,7 +73,7 @@ In this example we:
 1. Initialize SDK
     1. Set project ID
     1. Enable debug-mode to see error messages in Developer Tools Console.
-    1. Enable [Floating button plugin](/docs/button-plugin) for easy Web Push Opt-in process.
+    1. Enable [Floating button plugin](/docs/button-plugin) for easy web push opt-in process.
 
 <div class="callout callout-info" role="alert">
 
