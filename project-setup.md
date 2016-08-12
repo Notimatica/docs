@@ -1,18 +1,20 @@
 # Project Setup
 
+Secondly, you have to create a new Project in Notimatica. Let's do it together step by step.
+
 <div class="callout callout-info" role="alert">
 
-#### HTTP & HTTPS support
+#### HTTP & HTTPS Support
 
-Notimatica supports both HTTPS and HTTP websites. In case you HTTPS there is now problem for you, but with HTTP there is an issue. Generally speaking web push notifications do not support HTTP at all, but we work around this by sending notifications from a subdomain of notimatica.io, which is HTTPS website. It means that notifications are coming from your-subdomain.notimatica.io. Due to browser restrictions, this workaround requires a popup window to be shown for users to subscribe.
+Notimatica supports both HTTPS and HTTP websites, yet browsers require only HTTPS. We workaround this by sending push notifications to HTTP websites from `your-subdomain.notimatica.io` which is an HTTPS domain. The shortcoming is that it requires HTTP websites to show an additional popup window to opt-in users.
 
 </div>
 
 <div class="callout callout-warning" role="alert">
 
-#### Google application
+#### Prerequisites
 
-If you don’t have Google Server API Key and Google Project Number then complete the [Prerequisites](/docs/prerequisites) guide first.
+If you don’t have **Google Server API Key** and **Google Project Number** then go to [Prerequisites Guide](/docs/prerequisites)  first.
 
 </div>
 
@@ -25,35 +27,37 @@ If you don’t have Google Server API Key and Google Project Number then complet
 {#create-new-project}
 ## Create New Project
 
-1. Go to our Dashboard and click "New project".
-1. Enter the *Name* and *URL*. The *URL* should begin with prefix (http:// or https://) and not include subfolders.
-1. Enter *Subdomain*. The *Subdomain* is necessary for HTTP websites.
-1. Upload *Project icon*. The icon should be square .png image 192x192px.
-1. Click on "Create" button. Wait for project to be created.
+1. Go to [Notimatica's Dashboard](https://my.notimatica.io) and click "New project".
+1. Enter the **Name** and **URL** of your websute. Note that URL should contain prefix (`http://` or `https://`).
+1. Type **Subdomain**. Usually it may be the same as the Name of your website.
+1. Upload **Project icon**. The icon should be squared 192x192 PNG image.
+1. Click on "Create". Wait for project to be created.
+1. Congratulation, you have created first project in Notimatica.
 
 {#configure-chrome-and-firefox}
 ## Configure Chrome and Firefox
 
-1. In a newly created project go to **Project’s settings → Google Chrome, Mozilla Firefox** and click "Connect".
-1. Enter your Google Server API Key and Google Project Number (where can I get these?) and click "Connect".
-1. Download and unzip the SDK files by "Download package" link. You should have:
-    * manifest.json
-    * notimatica-sw.js
-1. Upload the files to the root of your site directory.
+1. Go to **Project → Settings → Google Chrome, Mozilla Firefox** and click "Connect".
+1. In the popup window type your **Google Server API Key** (API key) and **Google Project Number** (Sender ID) ([where can I get these?](/docs/prerequisites#google-chrome-support)) and click "Connect".
+{#configure-chrome-and-firefox-download-sdk}
+1. Download and unzip the SDK files by "Download package" link that has appeared. Inside package you should have:
+    * `manifest.json`
+    * `notimatica-sw.js`
+1. Upload these files to the root directory of your website.
+1. All set! Now go to [SDK Installation Guide](/docs/sdk-installation) to complete the last step.
 
 {#configure-safari}
-## Configure Safari (optional)
+## Configure Safari
 
 <div class="callout callout-info" role="alert">
 
-#### Please note
-
-* iOS and Windows currently are **not supported**
-* Using Google Chrome and Mozilla Firefox as your only web push platform is totally fine as they have 80% market share combined.
+#### Safari Support Is Optional
+* Using Google Chrome and Mozilla Firefox as your only web push notification platform is totally fine as they have 80% market share combined.
+* iOS and Windows are currently not supported
 
 </div>
 
-1. In a newly created project go to **Project’s settings → Apple Safari** and click "Connect".
-1. Upload a Private Key file (.p12) you obtained in prerequisites step and click "Connect".
+1. Go to **Project → Settings → Apple Safari** and click "Connect".
+1. Upload a Private Key file `.p12` ([where can I get this?](/docs/prerequisites#apple-safari-support)) and click "Connect".
+1. If you have already downloaded and unziped the SDK files by "Download package" link for Google Chrome support, then go  straight to [SDK Installation Guide](/docs/sdk-installation) to complete the last step. 
 
-That's it. You are at the finish line and only one [step](/docs/installation) ahead
