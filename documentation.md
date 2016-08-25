@@ -21,6 +21,8 @@
     - [Release Notes](/docs/sdk-release-notes)
 - Server API
     - [API Reference](https://notimatica.api-docs.io/)
+- [Examples & Tutorials](/docs/examples)
+- [Troubleshooting](/docs/troubleshooting-common)
 <!-- 
     - CMS Modules
     - [WordPress](/docs/wordpress)
@@ -28,5 +30,3 @@
     - [Joomla](/docs/joomla)
     - [Ghost](/docs/ghost)
 -->
-- [Examples & Tutorials](/docs/examples)
-- [Troubleshooting](/docs/troubleshooting-common)
