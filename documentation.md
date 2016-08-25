@@ -1,30 +1,32 @@
 {.sidenav}
-- [Getting started](/docs/introduction)
-- Setup
+- [Intro](/docs/introduction)
+- Getting Started
     - [Prerequisites](/docs/prerequisites)
     - [Project Setup](/docs/project-setup)
     - [SDK Installation](/docs/sdk-installation)
-    - [Tagging](/docs/tagging)
 - Plugins
-    - [Floating button](/docs/floating-button)
+    - [Floating Button](/docs/floating-button)
     - [Prompt](/docs/prompt)
     - [Panel](/docs/panel)
 - Customization
-    - [Localization](/docs/localization)
     - [Styling](/docs/styling)
-    - [Examples and Tutorials](/docs/examples)
+    - [Localization](/docs/localization)
 - JavaScript SDK
     - [API Reference](/docs/sdk-api)
     - [Options](/docs/sdk-options)
     - [Events](/docs/sdk-events)
+    - [Tagging](/docs/tagging)
     - [Webhooks](/docs/sdk-webhooks)
     - [Plugins](/docs/sdk-plugins)
     - [Release Notes](/docs/sdk-release-notes)
 - Server API
-    - [API Reference](https://notimatica.api-docs.io/1.0)
-- CMS Modules
-    - [Wordpress](/docs/wordpress)
+    - [API Reference](https://notimatica.api-docs.io/)
+<!-- 
+    - CMS Modules
+    - [WordPress](/docs/wordpress)
     - [Drupal](/docs/dupal)
     - [Joomla](/docs/joomla)
     - [Ghost](/docs/ghost)
-- [Troubleshooting](/docs/trouble-common)
+-->
+- [Examples & Tutorials](/docs/examples)
+- [Troubleshooting](/docs/troubleshooting-common)

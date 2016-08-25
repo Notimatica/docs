@@ -97,7 +97,7 @@
 
   </div>
 
-* ###### How to set a specific width and height for HTTP prompt?
+* ###### How to set a specific width and height for HTTP-prompt?
 
   <div>
 
@@ -120,7 +120,7 @@
 
   <div>
 
-  You can do it by setting `autoSubscribe` to `true`. On HTTPS websites, this instantly triggers browser's native permission prompt.
+  You can do it by setting `autoSubscribe` to `true`. On HTTPS websites, this instantly triggers browser's native opt-in prompt.
 
   ```javascript
   var Notimatica = Notimatica || [];
@@ -132,9 +132,9 @@
 
   <div class="callout callout-warning" role="alert">
 
-  #### Attention!
+  #### Please Note
 
-  This behaviour is fully disabled for sites that use HTTP popup fallback. Otherwise popup will be blocked by browser.
+  This behaviour is fully disabled for sites that use HTTP popup fallback. Otherwise popup will be blocked by a browser.
 
   </div>
 
@@ -167,7 +167,7 @@
 
   <div class="callout callout-warning" role="alert">
 
-  #### Attention!
+  #### Please Note
 
   Once you reset SDK, you loose all your event bindings. After reset don't forget to set them again.
 
@@ -181,7 +181,7 @@
 
   You can always emulate this process by setting `emulate` option. It can be useful if you want to test compatibility or our functionality before you connect to us.
 
-  This option makes using project ID optional so emulation process will be acting like your site is fully HTTPS. So no popups.
+  This option makes using Project ID optional so emulation process will be acting like your site is fully HTTPS. So there will be no popup windows.
 
   ```javascript
   var Notimatica = Notimatica || [];
@@ -190,6 +190,62 @@
   }]);
   ```
 
+  </div>
+
+* ###### How to sending yourself a test notification?
+
+  <div>
+
+  Макс?
+
+  </div>
+
+* ###### How to enable debug-mode?
+
+  <div>
+
+   You can switch Notimatica’s SDK into debug-mode by adding `debug: true` parameter to `init()`. After that SDK will start to prints error messages on the Developer Tools Console: 
+
+  {.line-numbers}
+  ```javascript
+  var Notimatica = Notimatica || [];
+  Notimatica.push(['init', {
+    project: 'PROJECT_ID',
+    debug: true
+  }]);
+  ```
+
+  </div>
+
+* ###### Tagging
+
+  <div>
+
+  Notimatica supports tagging users. It is especially usefull to send notifications to a specific segments of audience. For example, only to registered users. You can assign up too 10 tags to each user.
+
+  To tag user you have to add `tags` option while initializing SDK.
+
+  Here is an example:
+
+  {.line-numbers}
+  ```javascript
+  var Notimatica = Notimatica || [];
+  Notimatica.push(['init', {
+    project: 'PROJECT_ID',
+    tags: [
+      123456789,
+      'registered'
+    ]
+  }]);
+  ```
+
+  We've added 2 tags to the user. First one (on line #5) is some internal ID, second one is a role (`anonymous`, `registered` or any other you like).
+
+  This tags will be set to the user once he opt-ins to notifications.
+
+  Then in the **Segments** in [Dashboard](https://notimatica.io) you can create a new "Registered" segment where all subscribers with `registered` tag will appear.
+
+ This segment can be used to send particular notifications to a registered users.
   </div>
 
 </div>

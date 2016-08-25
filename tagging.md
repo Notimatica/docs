@@ -1,11 +1,12 @@
 # Tagging
 
-To track you users we introduce you a tagging model. You can assign up too 10 tags to your customers.
+Notimatica supports tagging users with additional attributes using the JavaScript SDK API methods. Our tagging model allows you to assign up to 10 tags to each user. 
 
-This may be useful if you want to send messages only to specific segments. For example only to registered users.
+Tag is a key-value pair of simple string data. Tags could be increadably useful if you want to divide your audience into segments and send web push notifications to a specific segment. 
 
-To tag user you have to add `tags` option while initializing SDK like this:
+Here is an example of setting 2 tags for a user while initializing JavaScript SDK:
 
+Here's an example of setting a tag:
 {.line-numbers}
 ```javascript
 var Notimatica = Notimatica || [];
@@ -18,10 +19,33 @@ Notimatica.push(['init', {
 }]);
 ```
 
-Here we added 2 tags to your customer. First one (on line #5) is his internal ID in your system, second is his role (`anonymous`, `registered` or any other you have).
+<div class="callout callout-warning" role="alert">
 
-This tags will be set to the user once he subscribes to notifications.
+#### Please Note
 
-Then in the **Segments** section in admin panel you can create a new **Registered** segment where all subscribers with `registered` tag will appear.
+Don't send arrays or hashes as a data to set up a tag. Use only simple strings or numbers, otherwise tags won't work.
 
-In future, this segment can be used by you in notification sending to reach only registered users.
+</div>
+
+The tags will be set to the user once it subscribes to web push notifications.
+
+### Sending Notifications to Specific Users
+
+There are two ways to send notifications to segments:
+
+* Through our [Dashboard](https://my.notimatica.io)
+* Using [Server API](https://notimatica.api-docs.io)
+
+#### Sending Notifications via the Dashboard
+
+To target specific segment of your audience, you have to first create a Segment. Add filters matching your key and value.
+
+![Create segment](/static/tagging/segment1.png "Create segment"){.img-responsive .center-block}
+
+After you've created a segment matching at least one user, you can send web push notifications targeting this segment.
+
+![Send to segment](/static/tagging/segment2.png "Send to segment"){.img-responsive .center-block}
+
+#### Sending Notifications via Server API
+
+To send notifications programmatically via Server API, use POST `segments` method to create a segment. Then use POST `notifications` method to send notifications targeting certain group of users or a specific user ([check out the documentation](https://notimatica.api-docs.io/)).
