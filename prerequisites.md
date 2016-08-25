@@ -50,9 +50,9 @@ To support Google Chrome you need to create an app in Google Services, obtain **
 </div>
 
 {#apple-developer-license}
-<div class="callout callout-alert" role="alert">
+<div class="callout callout-warning" role="alert">
 
-#### Safari Support is Optional
+#### Apple Developer License
 
 * To complete this guide you need to have an active iOS or Mac OS developer account in the [Apple Developer Program](https://developer.apple.com/programs/).
 
