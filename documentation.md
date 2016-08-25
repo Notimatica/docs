@@ -15,11 +15,12 @@
     - [API Reference](/docs/sdk-api)
     - [Options](/docs/sdk-options)
     - [Events](/docs/sdk-events)
+    - [Tagging](/docs/tagging)
     - [Webhooks](/docs/sdk-webhooks)
     - [Plugins](/docs/sdk-plugins)
     - [Release Notes](/docs/sdk-release-notes)
 - Server API
-    - [API Reference](https://notimatica.api-docs.io/1.0)
+    - [API Reference](https://notimatica.api-docs.io/)
 <!-- 
     - CMS Modules
     - [WordPress](/docs/wordpress)

@@ -134,7 +134,7 @@
 
   #### Please Note
 
-  This behaviour is fully disabled for sites that use HTTP popup fallback. Otherwise popup will be blocked by the browser.
+  This behaviour is fully disabled for sites that use HTTP popup fallback. Otherwise popup will be blocked by a browser.
 
   </div>
 
