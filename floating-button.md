@@ -39,7 +39,7 @@ You can do it by triggering `user:message` [event](/docs/sdk-events) like this:
 ```javascript
 Notimatica.push([
   'emit',
-  'user:message',
+  'user:interact',
   'You have a message!',
   'Something on our site needs you attention.'
 ])
