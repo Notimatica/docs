@@ -17,6 +17,7 @@ By default all strings are for `en` language. If you want to overwrite any of th
 var Notimatica = Notimatica || [];
 Notimatica.push(['init', {
   project: 'PROJECT_ID',
+  subdomain: 'SUBDOMAIN',
   strings: {
     ru: {
       'tooltip.subscribe': 'Подписаться на новости',

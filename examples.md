@@ -91,6 +91,7 @@
   var Notimatica = Notimatica || [];
   Notimatica.push(['init', {
     project: 'PROJECT_ID',
+    subdomain: 'SUBDOMAIN',
     usePopup: true // Enables popup even if the site is under HTTPS
   }]);
   ```
@@ -107,6 +108,7 @@
   var Notimatica = Notimatica || [];
   Notimatica.push(['init', {
     project: 'PROJECT_ID',
+    subdomain: 'SUBDOMAIN',
     popup: {
       height: 450, // Height of the popup in pixels
       width: 550 // Width of the popup in pixels
@@ -126,6 +128,7 @@
   var Notimatica = Notimatica || [];
   Notimatica.push(['init', {
     project: 'PROJECT_ID',
+    subdomain: 'SUBDOMAIN',
     autoSubscribe: true
   }]);
   ```
@@ -152,6 +155,7 @@
   // First init
   Notimatica.push(['init', {
     project: 'PROJECT_ID',
+    subdomain: 'SUBDOMAIN',
     autoSubscribe: true
   }]);
 
@@ -161,6 +165,7 @@
   // Init it again but with different options
   Notimatica.push(['init', {
     project: 'PROJECT_ID',
+    subdomain: 'SUBDOMAIN',
     autoSubscribe: false
   }]);
   ```
@@ -211,6 +216,7 @@
   var Notimatica = Notimatica || [];
   Notimatica.push(['init', {
     project: 'PROJECT_ID',
+    subdomain: 'SUBDOMAIN',
     debug: true
   }]);
   ```
@@ -232,6 +238,7 @@
   var Notimatica = Notimatica || [];
   Notimatica.push(['init', {
     project: 'PROJECT_ID',
+    subdomain: 'SUBDOMAIN',
     tags: [
       123456789,
       'registered'

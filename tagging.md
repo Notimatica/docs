@@ -6,12 +6,12 @@ Tag is a key-value pair of simple string data. Tags could be increadably useful 
 
 Here is an example of setting 2 tags for a user while initializing JavaScript SDK:
 
-Here's an example of setting a tag:
 {.line-numbers}
 ```javascript
 var Notimatica = Notimatica || [];
 Notimatica.push(['init', {
   project: 'PROJECT_ID',
+  subdomain: 'SUBDOMAIN',
   tags: [
     123456789,
     'registered'
@@ -30,7 +30,7 @@ Don't send arrays or hashes as a data to set up a tag. Use only simple strings o
 The tags will be set to the user once it subscribes to web push notifications.
 
 #### Sending Notifications to Specific Users
-There are two ways to send notifications to segments:
+There are two ways to send web push notifications to segments:
 
 * Through our [Dashboard](https://my.notimatica.io)
 * Using [Server API](https://notimatica.api-docs.io)

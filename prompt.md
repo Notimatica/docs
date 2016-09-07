@@ -16,6 +16,7 @@ Snappy way to replace default browser subscription prompt. Particularly useful i
 var Notimatica = Notimatica || [];
 Notimatica.push(['init', {
   project: 'PROJECT_ID',
+  subdomain: 'SUBDOMAIN',
   plugins: {
     prompt: {
       enable: true

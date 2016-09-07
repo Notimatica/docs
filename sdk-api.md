@@ -41,7 +41,8 @@ This method should be called once. Multiple calls won't cause any additional eff
 
 ```javascript
 Notimatica.push(['init', {
-  project: 'PROJECT_ID'
+  project: 'PROJECT_ID',
+  subdomain: 'SUBDOMAIN'
 }]);
 ```
 

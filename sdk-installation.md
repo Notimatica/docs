@@ -38,11 +38,14 @@ Place a small peace of JavaScript code right below SDK call.
 ```JavaScript
 var Notimatica = Notimatica || [];
 Notimatica.push(['init', {
-  project: 'PROJECT_ID'
+  project: 'PROJECT_ID',
+  subdomain: 'SUBDOMAIN',
+  safariWebId: 'web.com.mydomain'
 }]);
 ```
 
-You can find your own Project ID in **Dashboard → Projects** ([take me there](https://my.notimatica.io/projects)). It is a unique string like `08823592-135f-5576-9a91-f3a0675aa1d1`.
+You can find your Project ID and Subdomain in **Dashboard → Projects** ([take me there](https://my.notimatica.io/projects)).
+In case I've added Apple Safari support you need to add safariWebId parameter with your Apple Web Push ID.
 
 Now let's see a real life working example:
 
@@ -55,10 +58,13 @@ Now let's see a real life working example:
   var Notimatica = Notimatica || [];
   Notimatica.push(['init', {
     project: '08823592-135f-5576-9a91-f3a0675aa1d1',
+    subdomain: 'testdomain',
     debug: true,
     plugins: {
       button: {
-        enable: true
+        enable: true,
+        autorun: true,
+        position: 'bottom-right'
       }
     }
   }]);
@@ -71,9 +77,10 @@ In this example we:
 1. Include `manifest.json`
 1. Include JavaScript SDK file
 1. Initialize SDK
-    1. Set project ID
+    1. Set Project ID
+    1. Set Subdomain
     1. Enable debug-mode to see error messages in Developer Tools Console.
-    1. Enable [Floating button plugin](/docs/button-plugin) for easy web push opt-in process.
+    1. Enable [Floating button plugin](/docs/button-plugin) in the bottom right corner. For additional ease of web push opt-in process we've enabled autorun option.
 
 <div class="callout callout-info" role="alert">
 

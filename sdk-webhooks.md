@@ -15,6 +15,7 @@ You can specify your own url to trigger on events in `webhooks` options like thi
 var Notimatica = Notimatica || [];
 Notimatica.push(['init', {
   project: 'PROJECT_ID',
+  subdomain: 'SUBDOMAIN',
   webhooks: {
     'event': 'http://webhook-url'
   }
