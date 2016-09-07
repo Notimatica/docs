@@ -99,22 +99,18 @@ To support Google Chrome you need to create an app in Google Services, obtain **
 
 <div class="callout callout-info" role="alert">
 
-* ##### Private Key File
+  ###### Private Key File
   Now we need to get Private Key File `.p12` in order to complete the process.
 
 </div>
 
 * ##### Launch Keychain Access App
-  Go to "Certificates" section.
 
   ![Apple Safari Support](/static/prerequisites/apple13.png "Apple Safari Support - Step 7"){.center-block}
 
-* ##### Choose the Private Key associated with your Website Push ID Certificate
-  As shown below:
-
-  ![Apple Safari Support](/static/prerequisites/apple9.png "Apple Safari Support - Step 8"){.img-responsive .center-block}
-
-* ##### Export the Private Key file
+* ##### Choose "login" keychain and select "Certificates" category on the sidebar.
+* ##### Add certificate file `.cer` to "login" keychain.
+* ##### Export the Private Key file `.p12`
   In context menu click "Export".
 
   ![Apple Safari Support](/static/prerequisites/apple12.png "Apple Safari Support - Step 9"){.img-responsive .center-block}
