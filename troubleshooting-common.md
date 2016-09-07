@@ -18,6 +18,7 @@ Notimatica’s SDK prints handy error messages on the Developer Tools Console if
 var Notimatica = Notimatica || [];
 Notimatica.push(['init', {
   project: 'PROJECT_ID',
+  subdomain: 'SUBDOMAIN',
   debug: true
 }]);
 ```

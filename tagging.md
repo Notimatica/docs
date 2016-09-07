@@ -11,6 +11,7 @@ Here is an example of setting 2 tags for a user while initializing JavaScript SD
 var Notimatica = Notimatica || [];
 Notimatica.push(['init', {
   project: 'PROJECT_ID',
+  subdomain: 'SUBDOMAIN',
   tags: [
     123456789,
     'registered'

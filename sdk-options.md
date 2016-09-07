@@ -5,6 +5,7 @@ Options should be set in `init` function.
 ```javascript
 Notimatica.push(['init', {
   project: 'PROJECT_ID',
+  subdomain: 'SUBDOMAIN',
   debug: true,
 }]);
 ```
