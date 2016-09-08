@@ -94,7 +94,7 @@ Notifications in **Chrome** and **Firefox** are displayed inside browser window.
 
   You can get all the benefits of mobile push technology with web push notifications. They work alike. No need to invest your limited resources in building mobile app just to get ability to notify users.
 
-{#how-to-get-started?}
+{#how-to-get-started}
 ## How to get started?
 
 Follow our Configuration guide to setup a new project in Notimatica.
