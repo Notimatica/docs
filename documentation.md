@@ -4,13 +4,13 @@
     - [Prerequisites](/docs/prerequisites)
     - [Project Setup](/docs/project-setup)
     - [SDK Installation](/docs/sdk-installation)
+- Customization
+    - [Styling](/docs/styling)
+    - [Localization](/docs/localization)
 - Plugins
     - [Floating Button](/docs/floating-button)
     - [Prompt](/docs/prompt)
     - [Panel](/docs/panel)
-- Customization
-    - [Styling](/docs/styling)
-    - [Localization](/docs/localization)
 - JavaScript SDK
     - [API Reference](/docs/sdk-api)
     - [Options](/docs/sdk-options)
