@@ -33,6 +33,17 @@ All strings for tooltip are namespaced with `tooltip` prefix.
 {#popup}
 ## Popup
 
-HTTP fallback popup can be translated too. They have have `popup` namespace can be found [here](https://github.com/Notimatica/sdk/blob/master/src/sdk/sdk.js#L33)
+HTTP fallback popup can be translated too.
+
+{.table .table-bordered .table-striped .table-info}
+| String | Default |
+|--------|---------|
+| `popup.welcome` | Subscribe to {project} |
+| `popup.subscribe` | Do you want to receive notifications from {project}? |
+| `popup.subscribed` | You are subscribed to notifications from {project}. |
+| `popup.unsupported` | Your browser don't support push notifications. |
+| `popup.buttons.subscribe` | Subscribe |
+| `popup.buttons.unsubscribe` | Unsubscribe |
+| `popup.buttons.cancel` | Cancel |
 
 As you can notice some strings contain `{project}` placeholder. It is a place where project's name will be placed.

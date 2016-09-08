@@ -35,7 +35,7 @@ Dont' worry our JavaScript SDK is fully asynchronous and event-based so it won't
 Place a small peace of JavaScript code right below SDK call.
 
 {.line-numbers}
-```JavaScript
+```javascript
 var Notimatica = Notimatica || [];
 Notimatica.push(['init', {
   project: 'PROJECT_ID',
