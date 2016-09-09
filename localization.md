@@ -31,6 +31,7 @@ Here we translated `tooltip.subscribe` string to Spanish, so that if your page w
 <div class="callout callout-info" role="alert">
 
 #### Note
+
 By default SDK tries to detect browser's default locale and find if there are appropriate translation strings. If it succeeded, browser locale will be used. If fails, it will use English fallback.
 
 Also you can force SDK to always use locale you want. To do this, pass `locale` option to init method.
