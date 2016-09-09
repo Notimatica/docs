@@ -4,6 +4,7 @@ Every string in SDK can be localized, even text of the HTTP fallback popup, so y
 
 {.toc}
 * [Strings Translation](#strings-translation)
+* [Locale Detection](#locale-detection)
 * [Popup](#popup)
 
 {#strings-translation}
@@ -28,15 +29,28 @@ Notimatica.push(['init', {
 
 Here we translated `tooltip.subscribe` string to Spanish, so that if your page will visit spanish-speaking customer, he will see Spanish translation.
 
-<div class="callout callout-info" role="alert">
+{#locale-detection}
+## Locale Detection
 
-#### Note
-
-By default SDK tries to detect browser's default locale and find if there are appropriate translation strings. If it succeeded, browser locale will be used. If fails, it will use English fallback.
+By default SDK tries to detect browser's default locale and find if there are appropriate translation string. If it succeeded, browser locale will be used. If fails, it will use English fallback.
 
 Also you can force SDK to always use locale you want. To do this, pass `locale` option to init method.
 
-</div>
+```javascript
+var Notimatica = Notimatica || [];
+Notimatica.push(['init', {
+  project: 'PROJECT_ID',
+  subdomain: 'SUBDOMAIN',
+  locale: 'es',
+  strings: {
+    es: {
+      'tooltip.subscribe': 'Suscribirse a las noticias',
+    }
+  }
+}]);
+```
+
+With this example SDK will be forced to use Spanish language for every string as long as they are presented. If not, it will use English fallback.
 
 {#popup}
 ## Popup
