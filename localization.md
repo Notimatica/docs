@@ -3,15 +3,16 @@
 Every string in SDK can be localized, even text of the HTTP fallback popup, so you can handle multiple languages.
 
 {.toc}
-* [Mechanism](#mechanism)
+* [Strings Translation](#strings-translation)
+* [Locale Detection](#locale-detection)
 * [Popup](#popup)
 
-{#mechanism}
-## Mechanism
+{#strings-translation}
+## String Translation
 
-All strings have a unique namespaced ID and can be translated on any language you like.
+All strings have a unique ID and can be translated on any language you like.
 
-By default all strings are for `en` language. If you want to overwrite any of them or add your own language, add them to `strings` options like this:
+By default all strings are for `en` and `ru` languages. If you want to overwrite any of them or add your own language, add them to `strings` options like this:
 
 ```javascript
 var Notimatica = Notimatica || [];
@@ -19,16 +20,37 @@ Notimatica.push(['init', {
   project: 'PROJECT_ID',
   subdomain: 'SUBDOMAIN',
   strings: {
-    ru: {
-      'tooltip.subscribe': 'Подписаться на новости',
+    es: {
+      'tooltip.subscribe': 'Suscribirse a las noticias',
     }
   }
 }]);
 ```
 
-Here we translated `tooltip.subscribe` string to Russian, so that if your page will visit russian-speaking customer, he will see Russian translation.
+Here we translated `tooltip.subscribe` string to Spanish, so that if your page will visit spanish-speaking customer, he will see Spanish translation.
 
-All strings for tooltip are namespaced with `tooltip` prefix.
+{#locale-detection}
+## Locale Detection
+
+By default SDK tries to detect browser's default locale and find if there are appropriate translation string. If it succeeded, browser locale will be used. If fails, it will use English fallback.
+
+Also you can force SDK to always use locale you want. To do this, pass `locale` option to init method.
+
+```javascript
+var Notimatica = Notimatica || [];
+Notimatica.push(['init', {
+  project: 'PROJECT_ID',
+  subdomain: 'SUBDOMAIN',
+  locale: 'es',
+  strings: {
+    es: {
+      'tooltip.subscribe': 'Suscribirse a las noticias',
+    }
+  }
+}]);
+```
+
+With this example SDK will be forced to use Spanish language for every string as long as they are presented. If not, it will use English fallback.
 
 {#popup}
 ## Popup
