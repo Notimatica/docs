@@ -3,13 +3,13 @@
 Every string in SDK can be localized, even text of the HTTP fallback popup, so you can handle multiple languages.
 
 {.toc}
-* [String Translation](#strings-translation)
+* [Strings Translation](#strings-translation)
 * [Popup](#popup)
 
 {#strings-translation}
 ## String Translation
 
-All strings have a unique namespaced ID and can be translated on any language you like.
+All strings have a unique ID and can be translated on any language you like.
 
 By default all strings are for `en` and `ru` languages. If you want to overwrite any of them or add your own language, add them to `strings` options like this:
 
