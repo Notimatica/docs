@@ -37,8 +37,8 @@ Here are most common use cases for web push notifications:
 Web push notifications are currently supported by:
 
 * **Google Chrome**: Version 42+ on Windows, Android, Mac OS X, and Linux. Not supported on iOS.
+* **Mozilla Firefox**: Version 44+. on Windows, Android, Mac OS X, and Linux. Not supported on iOS or mobile Firefox.
 * **Apple Safari**: Version 7.1+ on desktop Mac OS X only. Not supported on iOS.
-* **Mozilla Firefox**: Version 44+. Not supported on iOS or mobile Firefox.
 * **Microsoft Edge / Internet Explorer:** Not supported
 * **Opera:** Not supported
 
@@ -50,11 +50,43 @@ Push notifications are not supported in Private Browsing mode, Incognito mode, G
 </div>
 
 {#browsers-difference}
-## What is the difference between push notifications in Chrome, Safari and Firefox?
+## How do push notifications look like in Chrome, Firefox and Safari?
 
-Web push notifications may have a bit different outlook from one browser to another.
+![Push Structure](/static/intro/push_structure.png "Push Structure"){.center-block}
 
-Notifications in **Chrome** and **Firefox** are displayed inside browser window. In Safari on Mac they are displayed as native Mac OS notifications.
+Web push notifications have a bit different outlook from browser to browser and different character limits on tilte and body.
+
+|   | Chrome  | Firefox | Safari |
+|---|:----------------:|:---------------:|:-------:|:------:|
+| **Title limit** | 70 | 35 | 35 |
+| **Body limit** | 115 | 35 | 85 |
+
+### Chrome
+Chrome offers the most complete user experience for web push notifications to date with the largest title and body limits. Here is an examples of how the push appears in Chrome on desktop.
+ 
+![Google Chrome Push](/static/intro/chrome_push.png "Google Chrome Push"){.center-block}
+
+**Title**: 70 characters
+**Body**: 115 characters
+
+### Firefox
+
+Firefox only supports desktop web push notifications with very limited title and body texts. If the percentage of Firefox users is high among your customer base, then try to keep your messages brief.
+
+![Mozilla Firefox Push](/static/intro/ff_push.png "Mozilla Firefox Push"){.center-block}
+
+**Title**: 35 characters
+**Body**: 35 characters
+
+### Safari
+Safari supports web push notifications only on desktop. It displays them as native Mac OS push notifications both in the right corner of a screen and as an item in Notification Center.
+
+![Apple Safari Push](/static/intro/safari_push.png "Apple Safari Push"){.center-block}
+
+**Title**: 35 characters
+**Body**: 85 characters
+
+<!--Notifications in **Chrome** and **Firefox** are displayed inside browser window. -->
 
 {#web-push-advantages}
 ## What are the advantages of web push notifications?

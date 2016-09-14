@@ -6,8 +6,6 @@ Finally, to make things work you have to include our JavaScript SDK on your webs
 * [Include manifest file](#include-manifest-file)
 * [Include JavaScript SDK file](#include-sdk-file)
 * [Initialize SDK](#initialize-sdk)
-* [Full Example](#full-example)
-* [Testing in sandbox](#testing-in-sandbox)
 
 {#include-manifest-file}
 ## Include manifest file
