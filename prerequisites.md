@@ -12,7 +12,9 @@ First of all, you have to obtain prerequisites from Google and Apple (optionaly)
 To support Google Chrome you need to create an app in Google Services, obtain **Google Server API Key** and **Google Project Number**.
 
 {.step-text}
-* ##### Go to [Google Services Wizard](https://developers.google.com/mobile/add?platform=android&cntapi=gcm)
+* ##### Go to Google Services Wizard
+  Go to – https://developers.google.com/mobile/add?platform=android&cntapi=gcm
+
 
 * ##### Choose App name and Android package name
 
@@ -62,7 +64,8 @@ To support Google Chrome you need to create an app in Google Services, obtain **
 ### Website Рush ID Сertificate
 
 {.step-text}
-* ##### Go to [Website Push IDs section](https://developer.apple.com/account/ios/identifier/websitePushId/landing) of Provisioning Portal.
+* ##### Go to Website Push IDs section of Provisioning Portal.
+  Go to – https://developer.apple.com/account/ios/identifier/websitePushId/landing
 
   ![Apple Safari Support](/static/prerequisites/apple2.png "Apple Safari Support - Step 1"){.img-rounded .img-shadow .img-responsive .center-block}
 
@@ -76,7 +79,8 @@ To support Google Chrome you need to create an app in Google Services, obtain **
 
   ![Apple Safari Support](/static/prerequisites/apple4.png "Apple Safari Support - Step 2"){.img-rounded .img-shadow .img-responsive .center-block}
 
-* ##### Go to [Certificates section](https://developer.apple.com/account/ios/certificate/) on Provisioning Portal.
+* ##### Go to Certificates section on Provisioning Portal.
+  Go to – https://developer.apple.com/account/ios/certificate/
 
   ![Apple Safari Support](/static/prerequisites/apple5.png "Apple Safari Support - Step 3"){.img-rounded .img-shadow .img-responsive .center-block}
 
@@ -93,33 +97,27 @@ To support Google Chrome you need to create an app in Google Services, obtain **
   ![Apple Safari Support](/static/prerequisites/apple7.png "Apple Safari Support - Step 5"){.img-rounded .img-shadow .img-responsive .center-block}
 
 * ##### Download the Website Рush ID Сertificate
-  Save certificate file `.cer` to your computer.
+  Save Certificate file `.cer`
 
   ![Apple Safari Support](/static/prerequisites/apple8.png "Apple Safari Support - Step 6"){.img-rounded .img-shadow .img-responsive .center-block}
 
-<div class="callout callout-info" role="alert">
-
-  ###### Private Key File
-  Now we need to get Private Key File `.p12` in order to complete the process.
-
-</div>
-
-* ##### Launch Keychain Access App
+* ##### Launch Keychain Access app
 
   ![Apple Safari Support](/static/prerequisites/apple13.png "Apple Safari Support - Step 7"){.center-block}
+ 
+* ##### Add Certificate file to Keychain Access.
+  Make sure you've placed it into the "Login" keychain under "Certificates" category.
 
-* ##### Choose "login" keychain and select "Certificates" category on the sidebar.
-* ##### Add certificate file `.cer` to "login" keychain.
-* ##### Export the Private Key file `.p12`
-  In context menu click "Export".
+* ##### Export the Private Key file
+  In context menu of newly added certificate click "Export".
 
   ![Apple Safari Support](/static/prerequisites/apple12.png "Apple Safari Support - Step 9"){.img-responsive .center-block}
 
-* ##### Choose the directory to save the Private Key file
+* ##### Choose the directory to save Private Key file
 
   ![Apple Safari Support](/static/prerequisites/apple10.png "Apple Safari Support - Step 10"){.img-responsive .center-block}
 
-* ##### Private Key File Password
+* ##### Set Private Key password
   You'll be asked to create a password. Please, leave both fields blank.
 
   ![Apple Safari Support](/static/prerequisites/apple11.png "Apple Member Center - Step 11"){.img-responsive .center-block}
