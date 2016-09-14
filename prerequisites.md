@@ -12,9 +12,10 @@ First of all, you have to obtain prerequisites from Google and Apple (optionaly)
 To support Google Chrome you need to create an app in Google Services, obtain **Google Server API Key** and **Google Project Number**.
 
 {.step-text}
-* ##### Go to Google Services Wizard
-  Go to – https://developers.google.com/mobile/add?platform=android&cntapi=gcm
 
+* ##### Go to Google Services Wizard
+
+  Go to – [https://developers.google.com/mobile/add?platform=android&cntapi=gcm](https://developers.google.com/mobile/add?platform=android&cntapi=gcm)
 
 * ##### Choose App name and Android package name
 
@@ -41,6 +42,7 @@ To support Google Chrome you need to create an app in Google Services, obtain **
   The next step is to install **JavaScript SDK** on your website with the help of [SDK Installation Guide](/docs/installation).
 
 {#apple-safari-support}
+
 ## Apple Safari Support (APNS)
 
 <div class="callout callout-info" role="alert">
@@ -61,11 +63,10 @@ To support Google Chrome you need to create an app in Google Services, obtain **
 </div>
 
 {#website-push-id-certificate}
-### Website Рush ID Сertificate
-
 {.step-text}
+
 * ##### Go to Website Push IDs section of Provisioning Portal.
-  Go to – https://developer.apple.com/account/ios/identifier/websitePushId/landing
+  Go to – [https://developer.apple.com/account/ios/identifier/websitePushId/landing](https://developer.apple.com/account/ios/identifier/websitePushId/landing)
 
   ![Apple Safari Support](/static/prerequisites/apple2.png "Apple Safari Support - Step 1"){.img-rounded .img-shadow .img-responsive .center-block}
 
@@ -80,7 +81,7 @@ To support Google Chrome you need to create an app in Google Services, obtain **
   ![Apple Safari Support](/static/prerequisites/apple4.png "Apple Safari Support - Step 2"){.img-rounded .img-shadow .img-responsive .center-block}
 
 * ##### Go to Certificates section on Provisioning Portal.
-  Go to – https://developer.apple.com/account/ios/certificate/
+  Go to – [https://developer.apple.com/account/ios/certificate/](https://developer.apple.com/account/ios/certificate/)
 
   ![Apple Safari Support](/static/prerequisites/apple5.png "Apple Safari Support - Step 3"){.img-rounded .img-shadow .img-responsive .center-block}
 
@@ -97,7 +98,6 @@ To support Google Chrome you need to create an app in Google Services, obtain **
   ![Apple Safari Support](/static/prerequisites/apple7.png "Apple Safari Support - Step 5"){.img-rounded .img-shadow .img-responsive .center-block}
 
 * ##### Download the Website Рush ID Сertificate
-  Save Certificate file `.cer`
 
   ![Apple Safari Support](/static/prerequisites/apple8.png "Apple Safari Support - Step 6"){.img-rounded .img-shadow .img-responsive .center-block}
 
