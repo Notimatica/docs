@@ -19,7 +19,7 @@ Notimatica.push(['init', {
   subdomain: 'SUBDOMAIN',
   plugins: {
     prompt: {
-      enable: true
+      enabled: true
     }
   }
 }]);
