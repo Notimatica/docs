@@ -19,7 +19,7 @@ Notimatica.push(['init', {
   project: 'PROJECT_ID',
   plugins: {
     button: {
-      enable: true,
+      enabled: true,
       position: 'bottom-left'
     }
   }
